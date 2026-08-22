@@ -63,26 +63,44 @@
       "batch": "Batch_001",
       "track": "habits_and_behavior_change",
       "working_title_hi": "आदत 21 दिन में नहीं, संकेत और दोहराव से बनती है",
-      "status": "research_verified",
+      "status": "production_blocked_video_quota",
       "research_file": "research/reel_0001_habit_formation_sources.md",
-      "script_file": null,
-      "voice_file": null,
+      "script_file": "reels/Reel_0001/script.md",
+      "voice_file": "reels/Reel_0001/narration_v2.wav",
+      "voice_duration_seconds": 59.28,
       "video_file": null,
-      "captions_file": null,
+      "captions_file": "reels/Reel_0001/captions.srt",
+      "visual_reference_file": "reels/Reel_0001/visual_reference.png",
+      "generated_visual_clips": [
+        "reels/Reel_0001/visual_01.mp4"
+      ],
       "drive_file_id": null,
       "drive_metadata_file_id": null,
       "qc": {
         "claim_to_source_match": "passed",
-        "content_production": "pending",
+        "content_production": "blocked_video_generation_quota",
         "drive_upload": "pending"
       },
-      "attempts": []
+      "attempts": [
+        {
+          "timestamp_utc": "2026-08-22T10:35:00Z",
+          "step": "hindi_voice",
+          "outcome": "passed",
+          "detail": "Final narration duration measured at 59.28 seconds."
+        },
+        {
+          "timestamp_utc": "2026-08-22T10:36:00Z",
+          "step": "ai_visual_generation",
+          "outcome": "partial_then_blocked",
+          "detail": "Opening 9:16 clip generated and validated at 720x1280. The next clip request was blocked by the free-plan daily video-generation limit (1/1)."
+        }
+      ]
     }
   },
   "last_checkpoint": {
-    "timestamp_utc": "2026-08-22T00:00:00Z",
+    "timestamp_utc": "2026-08-22T10:36:00Z",
     "completed_reels": 0,
     "current_reel": "0001",
-    "next_action": "Create Drive root and Batch_001 after confirming write operation, then generate the verified Reel 0001 production assets."
+    "next_action": "After the video-generation quota resets, generate the remaining five coherent visual clips, assemble the 9:16 MP4 with the measured narration and captions, pass technical QC, then create the requested Drive folders and upload only after explicit Drive-write confirmation."
   }
 }

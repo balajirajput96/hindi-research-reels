@@ -1,0 +1,70 @@
+{
+  "project": "3000_HINDI_RESEARCH_REELS",
+  "reel_id": "0001",
+  "batch": "Batch_001",
+  "language": "hi-IN",
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 60,
+    "caption_format": "SRT",
+    "audio_requirement": "Hindi voice narration"
+  },
+  "topic": "क्या आदत सच में 21 दिन में बनती है?",
+  "working_title_hi": "आदत 21 दिन में नहीं, संकेत और दोहराव से बनती है",
+  "status": "script_and_asset_plan_ready",
+  "claim_classification": {
+    "scientific_evidence": [
+      "A fixed 21-day rule is not a universal evidence-based habit-formation timetable.",
+      "Repetition of a selected action in a stable context is associated with increasing automaticity.",
+      "Reported timelines vary substantially by person, behaviour, and study."
+    ],
+    "practical_behavioral_strategy": [
+      "Choose a small self-selected action and associate it with a recurring cue."
+    ],
+    "not_claimed": [
+      "No individual habit-formation deadline is guaranteed.",
+      "This educational reel is not medical or mental-health advice."
+    ]
+  },
+  "source_files": {
+    "research_notes": "research/reel_0001_habit_formation_sources.md",
+    "script": "reels/Reel_0001/script.md",
+    "captions": "reels/Reel_0001/captions.srt",
+    "visual_shot_list": "reels/Reel_0001/visual_shot_list.md"
+  },
+  "sources": [
+    {
+      "id": "Lally_2010",
+      "citation": "Lally et al. (2010), How are habits formed: Modelling habit formation in the real world",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+      "use": "Stable-context repetition and automaticity modelling"
+    },
+    {
+      "id": "Gardner_Lally_Wardle_2012",
+      "citation": "Gardner, Lally & Wardle (2012), Making health habitual",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/",
+      "use": "Practice-oriented discussion of average automaticity plateau and variability"
+    },
+    {
+      "id": "Singh_2024",
+      "citation": "Singh et al. (2024), Time to Form a Habit: A Systematic Review and Meta-Analysis",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/",
+      "use": "Variability and uncertainty in habit-formation timelines"
+    }
+  ],
+  "required_qc": {
+    "research_claim_match": "pending_final_check",
+    "voice_duration_seconds": "pending",
+    "video_properties": "pending",
+    "caption_readability": "pending",
+    "visual_policy": "pending",
+    "drive_upload": "pending"
+  },
+  "drive": {
+    "root_folder_id": null,
+    "batch_folder_id": null,
+    "video_file_id": null,
+    "metadata_file_id": null,
+    "upload_verified": false
+  }
+}

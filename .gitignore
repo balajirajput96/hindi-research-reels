@@ -1,0 +1,9 @@
+# Generated media is retained locally and delivered to verified Google Drive; source plans and metadata are version-controlled.
+reels/**/narration*.wav
+reels/**/*.mp4
+reels/**/*.png
+scripts/__pycache__/
+*.pyc
+
+# Upload receipts include mutable Drive IDs and remain as local operational evidence.
+reels/**/drive_upload_receipt.json
