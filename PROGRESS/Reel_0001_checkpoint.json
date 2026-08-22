@@ -1,0 +1,29 @@
+{
+  "reel_id": "0001",
+  "status": "completed",
+  "completion_contract": {
+    "evidence_verified": true,
+    "script_fact_checked": true,
+    "voice_and_captions_present": true,
+    "technical_qc_passed": true,
+    "editorial_qc_passed": true,
+    "drive_upload_verified": true,
+    "checkpoint_updated": true
+  },
+  "archived_predecessor": {
+    "file_id": "1vGeCNPZoT7TBkPVR7tc8EtqYm7DsZb_S",
+    "duration_seconds": 3.833,
+    "policy": "preserved_without_overwrite"
+  },
+  "verified_replacement": {
+    "file_id": "1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP",
+    "name": "Reel_0001_neuroplasticity_60s_QC_passed.mp4",
+    "duration_seconds": 60.499,
+    "width": 720,
+    "height": 1280,
+    "parent_batch_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "verified_non_trashed": true
+  },
+  "next_reel_id": "0002",
+  "updated_at": "2026-08-23T00:00:00+05:30"
+}

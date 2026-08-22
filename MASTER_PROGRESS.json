@@ -27,7 +27,7 @@
   "reels": {
     "0001": {
       "topic": "Practice-dependent neuroplasticity",
-      "status": "repair_in_progress",
+      "status": "qc_passed_drive_verified",
       "original_predecessor": {
         "drive_file_id": "1vGeCNPZoT7TBkPVR7tc8EtqYm7DsZb_S",
         "duration_seconds": 3.833,
@@ -36,12 +36,14 @@
       "replacement_target": {
         "duration_seconds": 60,
         "format": "mp4_h264_aac_720x1280",
-        "batch": "Batch_001"
+        "batch": "Batch_001",
+        "drive_file_id": "1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP",
+        "drive_duration_seconds": 60.499,
+        "drive_verified_at": "2026-08-23T00:00:00+05:30"
       }
     }
   },
-  "next_reel_id": "0001",
+  "next_reel_id": "0002",
   "retry_queue": [],
   "updated_at": "2026-08-23T00:00:00+05:30"
 }
-

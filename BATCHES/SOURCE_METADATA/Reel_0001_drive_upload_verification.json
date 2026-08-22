@@ -1,0 +1,27 @@
+{
+  "reel_id": "0001",
+  "batch": "Batch_001",
+  "verification": {
+    "video": {
+      "file_id": "1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP",
+      "name": "Reel_0001_neuroplasticity_60s_QC_passed.mp4",
+      "mime_type": "video/mp4",
+      "duration_millis": 60499,
+      "width": 720,
+      "height": 1280,
+      "trashed": false,
+      "parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi"
+    },
+    "research_metadata": {
+      "file_id": "1OUVJelPAC3kJvMzgjAFmy76HTgALVZ5n",
+      "name": "Reel_0001_research_metadata.md",
+      "mime_type": "text/markdown"
+    },
+    "qc_report": {
+      "file_id": "1APB6MlZepLT-Cqo8LdfALjrBHow9VBW3",
+      "name": "Reel_0001_qc_report.json",
+      "mime_type": "application/json"
+    }
+  },
+  "verification_result": "pass"
+}

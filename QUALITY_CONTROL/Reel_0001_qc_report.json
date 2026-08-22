@@ -1,0 +1,46 @@
+{
+  "reel_id": "0001",
+  "render_file": "VIDEO_PROJECTS/Reel_0001/renders/Reel_0001_neuroplasticity_60s.mp4",
+  "rendered_at": "2026-08-23T00:00:00+05:30",
+  "technical_qc": {
+    "status": "pass",
+    "duration_seconds": 60.52,
+    "duration_target_seconds": 60,
+    "duration_within_55_to_65_second_gate": true,
+    "width": 720,
+    "height": 1280,
+    "aspect_ratio": "9:16",
+    "video_codec": "H.264",
+    "audio_codec": "AAC",
+    "hindi_narration_present": true,
+    "captions": {
+      "burned_in": true,
+      "source_track": "VIDEO_PROJECTS/Reel_0001/reel_0001_captions.ass",
+      "font_family": "Noto Sans Devanagari",
+      "mobile_safe_bottom_margin": 190
+    }
+  },
+  "editorial_qc": {
+    "status": "pass_with_evidence_boundary",
+    "claim_boundary": "The reel describes training-associated adaptation and explicitly rejects instant or universal rewiring claims.",
+    "scientific_evidence_separated_from_motivation": true,
+    "medical_diagnosis_or_treatment_claim": false,
+    "spiritual_or_philosophical_claim": false
+  },
+  "drive_qc": {
+    "status": "pass",
+    "video_file_id": "1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP",
+    "research_metadata_file_id": "1OUVJelPAC3kJvMzgjAFmy76HTgALVZ5n",
+    "qc_report_file_id": "1APB6MlZepLT-Cqo8LdfALjrBHow9VBW3",
+    "drive_duration_seconds": 60.499,
+    "drive_width": 720,
+    "drive_height": 1280,
+    "drive_trashed": false,
+    "required": [
+      "non_trashed_video_file",
+      "duration_metadata_between_55_and_65_seconds",
+      "source_metadata_uploaded",
+      "checkpoint_updated"
+    ]
+  }
+}
