@@ -1,0 +1,45 @@
+{
+  "reel_id": "0001",
+  "topic": "Practice-dependent neuroplasticity",
+  "subtopic": "Skill learning and experience-dependent changes",
+  "evidence_level": "Strong Evidence for training-associated neural changes; mixed specificity for any individual mechanism",
+  "claim_boundary": "Structured practice and skill learning can be associated with functional and structural neural changes. This does not mean that every thought, repetition, or visualization permanently rewires every brain in the same way.",
+  "findings": [
+    {
+      "finding": "A systematic review of MRI studies in children and adolescents reported training-associated changes in activation, structure, microstructure, and connectivity, while emphasizing developmental and methodological limitations.",
+      "evidence_category": "Established evidence with methodological limitations",
+      "population": "Children and adolescents in MRI-based training studies",
+      "source_key": "Tymofiyeva_Gaschler_2021"
+    },
+    {
+      "finding": "A review of motor skill learning describes functional and structural plasticity across multiple brain systems during acquisition, consolidation, and retention of motor skills.",
+      "evidence_category": "Established review evidence for motor skill learning",
+      "population": "Human and experimental-animal motor-skill learning literature",
+      "source_key": "Dayan_Cohen_2011"
+    }
+  ],
+  "sources": [
+    {
+      "source_key": "Tymofiyeva_Gaschler_2021",
+      "type": "systematic_review",
+      "citation": "Tymofiyeva, O., & Gaschler, R. (2021). Training-Induced Neural Plasticity in Youth: A Systematic Review of Structural and Functional MRI Studies. Frontiers in Human Neuroscience, 14, 497245.",
+      "doi": "10.3389/fnhum.2020.497245",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7848153/",
+      "limitations_for_reel": "Most studies used varied training types; fewer than half had a control condition; developmental maturation can overlap with training effects."
+    },
+    {
+      "source_key": "Dayan_Cohen_2011",
+      "type": "narrative_review",
+      "citation": "Dayan, E., & Cohen, L. G. (2011). Neuroplasticity subserving motor skill learning. Neuron, 72(3), 443–454.",
+      "doi": "10.1016/j.neuron.2011.10.008",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3217208/",
+      "limitations_for_reel": "Focused on motor skill learning; broader claims about all forms of learning must be framed cautiously."
+    }
+  ],
+  "excluded_claims": [
+    "Any thought can instantly rewire the brain.",
+    "Practice guarantees mastery for every person.",
+    "MRI signal changes directly measure individual neurons firing or a single synapse becoming stronger."
+  ]
+}
+

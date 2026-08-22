@@ -1,0 +1,15 @@
+{
+  "reel_id": "0001",
+  "status": "planned_repair",
+  "gates": {
+    "evidence": "pass_only_if_sources_match_script_claims",
+    "duration": "pass_only_if_between_55_and_65_seconds",
+    "portrait": "pass_only_if_720x1280_or_better",
+    "audio": "pass_only_if_hindi_narration_present_and_intelligible",
+    "captions": "pass_only_if_full_script_captioned_in_mobile_safe_area",
+    "visuals": "pass_only_if_each_scene_matches_its_evidence-bounded_narration",
+    "drive": "pass_only_if_uploaded_file_metadata_confirms_non_trashed_mp4_and_duration",
+    "checkpoint": "pass_only_if_drive_checkpoint_points_to_replacement_file"
+  },
+  "known_predecessor_failure": "Existing Drive asset duration is 3.833 seconds, not approximately 60 seconds."
+}

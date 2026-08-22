@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "project": "3000_HINDI_RESEARCH_REELS",
+  "production_contract": {
+    "target_total_reels": 3000,
+    "reels_per_batch": 30,
+    "video_aspect_ratio": "9:16",
+    "target_duration_seconds": 60,
+    "required_completion_gates": [
+      "evidence_verified",
+      "script_fact_checked",
+      "voice_and_captions_present",
+      "technical_qc_passed",
+      "editorial_qc_passed",
+      "drive_upload_verified",
+      "checkpoint_updated"
+    ]
+  },
+  "drive": {
+    "active_root_id": "1vYLRarvedtfaYzNcINGKpKAeeFaz0OnD",
+    "active_root_name": "3000_HINDI_RESEARCH_REELS",
+    "active_batch_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "active_batch_name": "Batch_001",
+    "older_duplicate_root": "1s8HhWxw2k1n57lhMyLmIT30Ln6y8rnc4",
+    "older_duplicate_root_policy": "preserve_without_modification"
+  },
+  "reels": {
+    "0001": {
+      "topic": "Practice-dependent neuroplasticity",
+      "status": "repair_in_progress",
+      "original_predecessor": {
+        "drive_file_id": "1vGeCNPZoT7TBkPVR7tc8EtqYm7DsZb_S",
+        "duration_seconds": 3.833,
+        "status": "archived_predecessor_not_completion"
+      },
+      "replacement_target": {
+        "duration_seconds": 60,
+        "format": "mp4_h264_aac_720x1280",
+        "batch": "Batch_001"
+      }
+    }
+  },
+  "next_reel_id": "0001",
+  "retry_queue": [],
+  "updated_at": "2026-08-23T00:00:00+05:30"
+}
+

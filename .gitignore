@@ -1,0 +1,18 @@
+# Generated and potentially large media; retain locally and in verified Drive storage only.
+ASSETS/generated/
+VIDEO_PROJECTS/**/renders/
+VIDEO_PROJECTS/**/audio/
+VIDEO_PROJECTS/**/frames/
+COMPLETED_REELS/*.mp4
+QUALITY_CONTROL/*.png
+QUALITY_CONTROL/*.wav
+ERROR_LOG/*.log
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# Runtime-only state and Drive download copies.
+local/
+reports/private/
+

@@ -1,0 +1,75 @@
+{
+  "reel_id": "0001",
+  "duration_seconds": 60,
+  "aspect_ratio": "9:16",
+  "style": {
+    "sub_genre": "cinematic scientific motion-graphics with anatomically inspired 3D neural imagery",
+    "rendering": "high-detail 3D brain and neuron visualization, clean editorial overlays, no on-image text",
+    "color_lighting": "deep navy background, electric cyan neural signals, warm amber practice moments, high contrast but calm",
+    "detail_density": "scientifically inspired, uncluttered, mobile-safe composition"
+  },
+  "voice": {
+    "language_code": "hi-IN",
+    "voice_character": "knowledgeable, calm, clear off-screen narrator",
+    "target_words_per_second": 2.1
+  },
+  "scenes": [
+    {
+      "id": "S1",
+      "seconds": [0, 10],
+      "purpose": "Hook and evidence boundary",
+      "visual": "A translucent human head in profile against a midnight blue field; a luminous brain network slowly wakes with cyan pulses, while a small warm amber question-mark-shaped light resolves into a simple neural pathway.",
+      "caption": "क्या अभ्यास दिमाग़ बदल सकता है?",
+      "narration_span": "क्या बार-बार अभ्यास करने से दिमाग़ सच में बदलता है? छोटा जवाब है—कुछ हद तक, हाँ; लेकिन यह जादू नहीं है।"
+    },
+    {
+      "id": "S2",
+      "seconds": [10, 20],
+      "purpose": "Concrete skills",
+      "visual": "Four clean circular vignettes flow around a central brain: fingers on piano keys, a typist learning a sequence, a basketball free throw, and a person practicing a balance pose; each action sends a soft amber pulse toward the central brain.",
+      "caption": "कौशल सीखने पर brain networks adapt कर सकते हैं",
+      "narration_span": "जब हम कोई कौशल सीखते हैं—जैसे संगीत, टाइपिंग, खेल, या नई चाल—तो दिमाग़ उस काम से जुड़े नेटवर्क में अपने काम करने के तरीके को ढाल सकता है।"
+    },
+    {
+      "id": "S3",
+      "seconds": [20, 30],
+      "purpose": "What research observes",
+      "visual": "A research-lab inspired brain scan visualization transitions into linked network lines and an abstract structural mesh. The camera moves slowly through the mesh; no fake brain scan labels or numbers appear.",
+      "caption": "Research में activity, connectivity और structure measures देखे जाते हैं",
+      "narration_span": "शोध में अभ्यास के साथ brain activity, connectivity, और कुछ structural measures में बदलाव देखे गए हैं।"
+    },
+    {
+      "id": "S4",
+      "seconds": [30, 40],
+      "purpose": "Measurement limitation",
+      "visual": "The brain scan fades into a translucent lens and then into a single stylized neuron that remains deliberately out of focus behind the lens, illustrating indirect measurement without claiming a literal scan of a synapse.",
+      "caption": "MRI अप्रत्यक्ष संकेत देता है",
+      "narration_span": "लेकिन एक ज़रूरी सावधानी: MRI हमें सीधे किसी एक neuron या synapse को नहीं दिखाता। वह अप्रत्यक्ष संकेत देता है।"
+    },
+    {
+      "id": "S5",
+      "seconds": [40, 50],
+      "purpose": "Variability and correction",
+      "visual": "A calm radial diagram forms from five icon-like visual metaphors—task, age, practice dose, rest, and prior experience—then an overconfident glowing slogan dissolves into a neutral, realistic practice journal.",
+      "caption": "परिणाम task, उम्र, अभ्यास और आराम पर निर्भर हैं",
+      "narration_span": "और बदलाव task, उम्र, अभ्यास की मात्रा, आराम, और पहले के अनुभव पर निर्भर करते हैं। इसलिए सही takeaway यह नहीं कि बस सोचो और दिमाग़ बदल जाएगा।"
+    },
+    {
+      "id": "S6",
+      "seconds": [50, 60],
+      "purpose": "Evidence-bounded takeaway",
+      "visual": "A learner practices one small movement, receives a simple visual feedback cue, rests, and returns to practice. Warm amber and cyan pathways settle into a calm stable pattern; final frame leaves uncluttered dark space for the final caption.",
+      "caption": "Regular practice + feedback + rest = बेहतर learning conditions",
+      "narration_span": "बेहतर बात यह है: स्पष्ट feedback के साथ नियमित अभ्यास, धीरे-धीरे कठिनाई बढ़ाना, और पर्याप्त आराम—सीखने के लिए बेहतर conditions बना सकते हैं। Neuroplasticity क्षमता है, instant guarantee नहीं।"
+    }
+  ],
+  "qc_criteria": [
+    "Duration between 55 and 65 seconds",
+    "720x1280 upright MP4 with H.264 video and AAC narration audio",
+    "Hindi narration and burned-in captions cover all six scenes",
+    "No unsupported statistic, causal overclaim, diagnostic advice, or spiritual claim",
+    "Captions are readable in the mobile safe area",
+    "Source metadata and upload verification are retained"
+  ]
+}
+
