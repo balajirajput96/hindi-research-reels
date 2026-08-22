@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "project": "3000_HINDI_RESEARCH_REELS",
+  "language": "hi-IN",
+  "target_format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 60,
+    "voice_required": true,
+    "captions_required": true,
+    "visuals_required": true
+  },
+  "catalog": {
+    "total_reels": 3000,
+    "batch_size": 30,
+    "batch_count": 100,
+    "topic_tracks": [
+      "habits_and_behavior_change",
+      "attention_and_focus",
+      "memory_and_learning",
+      "emotion_and_regulation",
+      "sleep_and_recovery",
+      "stress_and_coping",
+      "decision_making_and_biases",
+      "social_psychology",
+      "brain_and_neuroplasticity",
+      "mindfulness_and_meditation",
+      "philosophy_and_meaning",
+      "spiritual_beliefs_clearly_labeled"
+    ]
+  },
+  "storage": {
+    "primary": "Google Drive",
+    "root_folder_name": "3000_HINDI_RESEARCH_REELS",
+    "root_folder_id": null,
+    "folder_structure": "Batch_001 through Batch_100; each batch contains 30 approved reels and their source metadata",
+    "upload_verification_required": true
+  },
+  "automation_policy": {
+    "resume_from_state": true,
+    "do_not_regenerate_qc_passed_reels": true,
+    "retry_failed_steps": true,
+    "maximum_automatic_retries_per_step": 2,
+    "publish_only_after_qc_and_drive_verification": true,
+    "source_classes": [
+      "peer_reviewed_primary_study",
+      "systematic_review_or_meta_analysis",
+      "university_or_research_institute",
+      "recognized_expert_or_book_clearly_labeled",
+      "philosophical_or_spiritual_belief_clearly_labeled"
+    ]
+  },
+  "quality_gates": [
+    "claim_to_source_match",
+    "evidence_hypothesis_opinion_or_belief_labeling",
+    "Hindi_voice_and_caption_alignment",
+    "vertical_video_9_by_16",
+    "approximate_60_second_duration",
+    "visual_safety_and_legibility",
+    "verified_Drive_upload"
+  ],
+  "reels": {
+    "0001": {
+      "batch": "Batch_001",
+      "track": "habits_and_behavior_change",
+      "working_title_hi": "आदत 21 दिन में नहीं, संकेत और दोहराव से बनती है",
+      "status": "research_verified",
+      "research_file": "research/reel_0001_habit_formation_sources.md",
+      "script_file": null,
+      "voice_file": null,
+      "video_file": null,
+      "captions_file": null,
+      "drive_file_id": null,
+      "drive_metadata_file_id": null,
+      "qc": {
+        "claim_to_source_match": "passed",
+        "content_production": "pending",
+        "drive_upload": "pending"
+      },
+      "attempts": []
+    }
+  },
+  "last_checkpoint": {
+    "timestamp_utc": "2026-08-22T00:00:00Z",
+    "completed_reels": 0,
+    "current_reel": "0001",
+    "next_action": "Create Drive root and Batch_001 after confirming write operation, then generate the verified Reel 0001 production assets."
+  }
+}
