@@ -1,4 +1,10 @@
-# Generated and potentially large media; retain locally and in verified Drive storage only.
+# Generated media is retained locally and delivered to verified Google Drive; source plans and metadata are version-controlled.
+reels/**/narration*.wav
+reels/**/*.mp4
+reels/**/*.png
+reels/**/drive_upload_receipt.json
+
+# Generated and potentially large corrected-reel media; retain locally and in verified Drive storage only.
 ASSETS/generated/
 VIDEO_PROJECTS/**/renders/
 VIDEO_PROJECTS/**/audio/
@@ -12,7 +18,8 @@ ERROR_LOG/*.log
 *.wav
 *.mp3
 
-# Runtime-only state and Drive download copies.
+# Python and runtime-only state.
+scripts/__pycache__/
+*.pyc
 local/
 reports/private/
-
