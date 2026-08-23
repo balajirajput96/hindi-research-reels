@@ -27,21 +27,21 @@ const idFor = (number) => String(number).padStart(4, '0');
 
 const reels = [
   {
-    reel_id: '0001', batch: 'Batch_001', track: 'brain_plasticity', working_title_hi: 'अभ्यास-आधारित न्यूरोप्लास्टिसिटी',
+    reel_id: '0001', batch: 'Batch_001', track: 'habits_behavior', working_title_hi: 'आदत 21 दिन में नहीं, संकेत और दोहराव से बनती है',
     status: 'qc_passed_drive_verified', evidence_status: 'verified',
-    drive_file_id: '1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP',
-    source_metadata_file_id: '1OUVJelPAC3kJvMzgjAFmy76HTgALVZ5n', qc_file_id: '1ZgLgjoT-rC-Ha7UIKD7haQ0gzFSFEKBX',
-    duration_seconds: 60.499, archived_predecessor: '1vGeCNPZoT7TBkPVR7tc8EtqYm7DsZb_S'
-  },
-  {
-    reel_id: '0002', batch: 'Batch_001', track: 'habits_behavior', working_title_hi: '21 दिन वाली आदत-धारणा: संकेत और दोहराव',
-    status: 'recovery_ready_retry', evidence_status: 'verified_prior_sources',
-    legacy_assets: ['research/reel_0001_habit_formation_sources.md', 'reels/Reel_0001/script.md', 'reels/Reel_0001/captions.srt'],
-    retry_reason: 'prior_visual_generation_quota_blocked_remaining_scenes', retries_used: 1, max_retries_per_step: 2
+    drive_folder_id: '1VdOHjx3yba1f6J-x1ZKEJwxLu_nKIFzC',
+    drive_file_id: '1CTNcuAZgjpBeMiZD33rRsl6_StfzkzqP',
+    source_metadata_file_id: '1RqJY2DrnCtHB0YSAVFbadXpiVJrTtzUd',
+    metadata_file_id: '1fLPCiUfN21dGgN_JxA1gc3vROzGsuXWR',
+    qc_file_id: '1JetS0w_BlEz2YJGVuSVAIHBNWbMl69Yh',
+    caption_file_id: '1blMUq1uVtyaH5odrvVrx_XvhGW8TY7G1',
+    script_file_id: '1zplpmLuTg4IEOZqV8IGna46lyTXZSvx-',
+    duration_seconds: 56.96,
+    visual_route: 'AI editorial visuals assembled as deterministic motion graphics'
   }
 ];
 
-let number = 3;
+let number = 2;
 outer: for (const track of tracks) {
   for (const domain of track.domains) {
     for (const focus of track.focuses) {
@@ -66,10 +66,10 @@ outer: for (const track of tracks) {
 if (reels.length !== 3000) throw new Error(`Expected 3000 reels; received ${reels.length}`);
 const state = {
   schema_version: '2.0', project: '3000_HINDI_RESEARCH_REELS', language: 'hi-IN',
-  storage: { primary: 'Google Drive', root_folder_id: '1vYLRarvedtfaYzNcINGKpKAeeFaz0OnD', root_folder_name: '3000_HINDI_RESEARCH_REELS', batch_folder_pattern: 'Batch_001 through Batch_100', verified_upload_required: true },
+  storage: { primary: 'Google Drive', root_folder_id: '1Fi466y5laOcSOof7nUta6i9u5Ft3Zwlt', root_folder_name: '3000_HINDI_RESEARCH_REELS', batch_folder_pattern: 'Batch_001 through Batch_100', verified_upload_required: true },
   production_contract: { total_reels: 3000, batches: 100, reels_per_batch: 30, aspect_ratio: '9:16', target_duration_seconds: 60, voice_required: true, captions_required: true, evidence_classification_required: true, raw_terminal_history_policy: 'metadata_only_never_content' },
   tracks: tracks.map(({ id, title, evidence }) => ({ id, title_hi: title, evidence_default: evidence })),
-  state: { completed_reels: 1, active_reel: '0002', next_reel: '0002', retry_queue: ['0002'], failed_reels: [], last_verified_reel: '0001' },
+  state: { completed_reels: 1, active_reel: '0002', next_reel: '0002', retry_queue: [], failed_reels: [], last_verified_reel: '0001' },
   reels
 };
 

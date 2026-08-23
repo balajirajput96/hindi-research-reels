@@ -1,0 +1,50 @@
+{
+  "reel_id": "0001",
+  "verification_timestamp_utc": "2026-08-23T10:00:00Z",
+  "result": "passed",
+  "drive_hierarchy": {
+    "root_folder_id": "1Fi466y5laOcSOof7nUta6i9u5Ft3Zwlt",
+    "batch_folder_id": "1VdMz2fPf0oucSgFLph8e7s9MkN1HdtGY",
+    "reel_folder_id": "1VdOHjx3yba1f6J-x1ZKEJwxLu_nKIFzC"
+  },
+  "verified_files": {
+    "video": {
+      "id": "1CTNcuAZgjpBeMiZD33rRsl6_StfzkzqP",
+      "name": "Reel_0001_habit_formation_60s_QC_passed.mp4",
+      "mime_type": "video/mp4",
+      "size_bytes": 2234079,
+      "trashed": false
+    },
+    "metadata": {
+      "id": "1fLPCiUfN21dGgN_JxA1gc3vROzGsuXWR",
+      "name": "Reel_0001_metadata.json",
+      "mime_type": "application/json",
+      "trashed": false
+    },
+    "sources": {
+      "id": "1RqJY2DrnCtHB0YSAVFbadXpiVJrTtzUd",
+      "name": "Reel_0001_sources.md",
+      "mime_type": "text/markdown",
+      "trashed": false
+    },
+    "qc_report": {
+      "id": "1JetS0w_BlEz2YJGVuSVAIHBNWbMl69Yh",
+      "name": "Reel_0001_qc_report.json",
+      "mime_type": "application/json",
+      "trashed": false
+    },
+    "captions": {
+      "id": "1blMUq1uVtyaH5odrvVrx_XvhGW8TY7G1",
+      "name": "Reel_0001_captions.srt",
+      "mime_type": "application/x-subrip",
+      "trashed": false
+    },
+    "script": {
+      "id": "1zplpmLuTg4IEOZqV8IGna46lyTXZSvx-",
+      "name": "Reel_0001_script.md",
+      "mime_type": "text/markdown",
+      "trashed": false
+    }
+  },
+  "completion_rule_satisfied": "The final 9:16 MP4 and all accompanying metadata artifacts were ID-queried as non-trashed within the verified Reel_0001 folder."
+}

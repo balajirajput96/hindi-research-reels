@@ -11,7 +11,7 @@
   },
   "topic": "क्या आदत सच में 21 दिन में बनती है?",
   "working_title_hi": "आदत 21 दिन में नहीं, संकेत और दोहराव से बनती है",
-  "status": "script_and_asset_plan_ready",
+  "status": "qc_passed_pending_drive_upload",
   "claim_classification": {
     "scientific_evidence": [
       "A fixed 21-day rule is not a universal evidence-based habit-formation timetable.",
@@ -29,9 +29,12 @@
   "source_files": {
     "research_notes": "research/reel_0001_habit_formation_sources.md",
     "script": "reels/Reel_0001/script.md",
-    "captions": "reels/Reel_0001/captions.srt",
-    "visual_shot_list": "reels/Reel_0001/visual_shot_list.md"
+    "captions": "reels/Reel_0001/captions_final.srt",
+    "visual_shot_list": "reels/Reel_0001/visual_shot_list.md",
+    "video": "reels/Reel_0001/reel.mp4",
+    "voice": "reels/Reel_0001/narration.wav"
   },
+  "visual_production_route": "AI-generated editorial visuals assembled as deterministic 9:16 motion graphics with externally rendered Hindi captions; not represented as full generative-video animation.",
   "sources": [
     {
       "id": "Lally_2010",
@@ -53,11 +56,11 @@
     }
   ],
   "required_qc": {
-    "research_claim_match": "pending_final_check",
-    "voice_duration_seconds": "pending",
-    "video_properties": "pending",
-    "caption_readability": "pending",
-    "visual_policy": "pending",
+    "research_claim_match": "passed",
+    "voice_duration_seconds": 56.96,
+    "video_properties": "passed: 720x1280 H.264/AAC, 56.96 seconds",
+    "caption_readability": "passed: Noto Sans Devanagari, bottom-safe placement, last cue ends at 56.8 seconds",
+    "visual_policy": "passed: claim boundaries and non-guarantee framing preserved",
     "drive_upload": "pending"
   },
   "drive": {

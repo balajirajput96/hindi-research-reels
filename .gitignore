@@ -23,3 +23,7 @@ scripts/__pycache__/
 *.pyc
 local/
 reports/private/
+
+# Deterministic render intermediates and transient schema snapshots.
+reels/**/render_work/
+.tmp_drive_*_schema.json

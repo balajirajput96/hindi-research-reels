@@ -31,7 +31,10 @@
   "storage": {
     "primary": "Google Drive",
     "root_folder_name": "3000_HINDI_RESEARCH_REELS",
-    "root_folder_id": null,
+    "root_folder_id": "1Fi466y5laOcSOof7nUta6i9u5Ft3Zwlt",
+    "known_batch_folders": {
+      "Batch_001": "1VdMz2fPf0oucSgFLph8e7s9MkN1HdtGY"
+    },
     "folder_structure": "Batch_001 through Batch_100; each batch contains 30 approved reels and their source metadata",
     "upload_verification_required": true
   },
@@ -63,44 +66,67 @@
       "batch": "Batch_001",
       "track": "habits_and_behavior_change",
       "working_title_hi": "आदत 21 दिन में नहीं, संकेत और दोहराव से बनती है",
-      "status": "production_blocked_video_quota",
+      "status": "complete",
       "research_file": "research/reel_0001_habit_formation_sources.md",
       "script_file": "reels/Reel_0001/script.md",
-      "voice_file": "reels/Reel_0001/narration_v2.wav",
-      "voice_duration_seconds": 59.28,
-      "video_file": null,
-      "captions_file": "reels/Reel_0001/captions.srt",
+      "voice_file": "reels/Reel_0001/narration.wav",
+      "voice_duration_seconds": 56.96,
+      "video_file": "reels/Reel_0001/reel.mp4",
+      "captions_file": "reels/Reel_0001/captions_final.srt",
       "visual_reference_file": "reels/Reel_0001/visual_reference.png",
       "generated_visual_clips": [
-        "reels/Reel_0001/visual_01.mp4"
+        "reels/Reel_0001/visual_reference.png",
+        "reels/Reel_0001/visual_02_cue.png",
+        "reels/Reel_0001/visual_03_automaticity.png",
+        "reels/Reel_0001/visual_04_variability.png",
+        "reels/Reel_0001/visual_05_no_deadline.png",
+        "reels/Reel_0001/visual_06_takeaway.png"
       ],
-      "drive_file_id": null,
-      "drive_metadata_file_id": null,
+      "drive_folder_id": "1VdOHjx3yba1f6J-x1ZKEJwxLu_nKIFzC",
+      "drive_file_id": "1CTNcuAZgjpBeMiZD33rRsl6_StfzkzqP",
+      "drive_metadata_file_id": "1fLPCiUfN21dGgN_JxA1gc3vROzGsuXWR",
+      "drive_supporting_file_ids": {
+        "sources": "1RqJY2DrnCtHB0YSAVFbadXpiVJrTtzUd",
+        "qc_report": "1JetS0w_BlEz2YJGVuSVAIHBNWbMl69Yh",
+        "captions": "1blMUq1uVtyaH5odrvVrx_XvhGW8TY7G1",
+        "script": "1zplpmLuTg4IEOZqV8IGna46lyTXZSvx-",
+        "delivery_receipt": "1antr2M6XvvopE0mBWTz0rS687IL__dT0"
+      },
       "qc": {
         "claim_to_source_match": "passed",
-        "content_production": "blocked_video_generation_quota",
-        "drive_upload": "pending"
+        "content_production": "passed",
+        "drive_upload": "passed"
+      },
+      "qc_evidence": {
+        "content_production": "720x1280 H.264/AAC, 56.96 seconds, captions burned in",
+        "drive_upload": "video and five supporting artifacts verified by returned Drive ID"
       },
       "attempts": [
         {
           "timestamp_utc": "2026-08-22T10:35:00Z",
           "step": "hindi_voice",
           "outcome": "passed",
-          "detail": "Final narration duration measured at 59.28 seconds."
+          "detail": "Initial narration duration measured at 59.28 seconds before sandbox loss."
         },
         {
           "timestamp_utc": "2026-08-22T10:36:00Z",
           "step": "ai_visual_generation",
-          "outcome": "partial_then_blocked",
-          "detail": "Opening 9:16 clip generated and validated at 720x1280. The next clip request was blocked by the free-plan daily video-generation limit (1/1)."
+          "outcome": "blocked_then_recovered",
+          "detail": "Full generative-video sequence was blocked by the free-plan daily limit; recovery used transparent AI-editorial-visual plus deterministic motion-graphics route."
+        },
+        {
+          "timestamp_utc": "2026-08-23T10:00:00Z",
+          "step": "final_render_and_drive_delivery",
+          "outcome": "passed",
+          "detail": "Final render measured at 56.96 seconds and all Drive bundle files were verified non-trashed in Reel_0001 folder."
         }
       ]
     }
   },
   "last_checkpoint": {
-    "timestamp_utc": "2026-08-22T10:36:00Z",
-    "completed_reels": 0,
+    "timestamp_utc": "2026-08-23T10:00:00Z",
+    "completed_reels": 1,
     "current_reel": "0001",
-    "next_action": "After the video-generation quota resets, generate the remaining five coherent visual clips, assemble the 9:16 MP4 with the measured narration and captions, pass technical QC, then create the requested Drive folders and upload only after explicit Drive-write confirmation."
+    "next_action": "Reconcile the catalog registry so Reel 0001 is represented once as a verified completed record, then research and stage Reel 0002 without regenerating Reel 0001."
   }
 }
