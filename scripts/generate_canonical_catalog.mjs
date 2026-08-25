@@ -36,12 +36,25 @@ const reels = [
     qc_file_id: '1JetS0w_BlEz2YJGVuSVAIHBNWbMl69Yh',
     caption_file_id: '1blMUq1uVtyaH5odrvVrx_XvhGW8TY7G1',
     script_file_id: '1zplpmLuTg4IEOZqV8IGna46lyTXZSvx-',
-    duration_seconds: 56.96,
+        duration_seconds: 56.96,
+    visual_route: 'AI editorial visuals assembled as deterministic motion graphics'
+  },
+  {
+    reel_id: '0002', batch: 'Batch_001', track: 'habits_behavior', working_title_hi: 'नई आदत शुरू नहीं हो रही? लक्ष्य नहीं, अगर-तब योजना बनाइए',
+    status: 'qc_passed_drive_verified', evidence_status: 'verified',
+    drive_folder_id: '1Pw5Zzd8byrjwFHg72NS4xp51WrL4kg8N',
+    drive_file_id: '11g76U-1VOxI3KgWxHCNSlwvywbOZB6AE',
+    source_metadata_file_id: '1GnTB6O9Y5W9WaSR14E60-V9sTgOHY1QO',
+    metadata_file_id: '1m2TJUobkfN5E3msL_OAii6jzQ1Jah7Bi',
+    qc_file_id: '1ucJLZvjer7cRcibhtX2L_j5t_4nA8oLi',
+    caption_file_id: '1cw3vbQfvFRh24w_VOzUVR779po3DcY9V',
+    script_file_id: '1N0NNf4hkLzEKsoPfxGKMs4bRNSOtA_lf',
+    delivery_receipt_file_id: '1E8K9rW9gqmxMXuPN6sV40HTqiqkAqJ_A',
+    duration_seconds: 63.08,
     visual_route: 'AI editorial visuals assembled as deterministic motion graphics'
   }
 ];
-
-let number = 2;
+let number = 3;
 outer: for (const track of tracks) {
   for (const domain of track.domains) {
     for (const focus of track.focuses) {
@@ -69,7 +82,7 @@ const state = {
   storage: { primary: 'Google Drive', root_folder_id: '1Fi466y5laOcSOof7nUta6i9u5Ft3Zwlt', root_folder_name: '3000_HINDI_RESEARCH_REELS', batch_folder_pattern: 'Batch_001 through Batch_100', verified_upload_required: true },
   production_contract: { total_reels: 3000, batches: 100, reels_per_batch: 30, aspect_ratio: '9:16', target_duration_seconds: 60, voice_required: true, captions_required: true, evidence_classification_required: true, raw_terminal_history_policy: 'metadata_only_never_content' },
   tracks: tracks.map(({ id, title, evidence }) => ({ id, title_hi: title, evidence_default: evidence })),
-  state: { completed_reels: 1, active_reel: '0002', next_reel: '0002', retry_queue: [], failed_reels: [], last_verified_reel: '0001' },
+  state: { completed_reels: 2, active_reel: '0003', next_reel: '0003', retry_queue: [], failed_reels: [], last_verified_reel: '0002' },
   reels
 };
 

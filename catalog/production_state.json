@@ -121,12 +121,67 @@
           "detail": "Final render measured at 56.96 seconds and all Drive bundle files were verified non-trashed in Reel_0001 folder."
         }
       ]
+    },
+    "0002": {
+      "batch": "Batch_001",
+      "track": "habits_and_behavior_change",
+      "working_title_hi": "नई आदत शुरू नहीं हो रही? लक्ष्य नहीं, अगर-तब योजना बनाइए",
+      "status": "complete",
+      "research_file": "research/reel_0002_if_then_planning_sources.md",
+      "script_file": "reels/Reel_0002/script.md",
+      "voice_file": "reels/Reel_0002/narration_v2.wav",
+      "voice_duration_seconds": 63.08,
+      "video_file": "reels/Reel_0002/reel.mp4",
+      "captions_file": "reels/Reel_0002/captions.srt",
+      "visual_reference_file": "reels/Reel_0002/visual_reference.png",
+      "generated_visual_clips": [
+        "reels/Reel_0002/visual_reference.png",
+        "reels/Reel_0002/visual_02_intention_gap.png",
+        "reels/Reel_0002/visual_03_if_then_structure.png",
+        "reels/Reel_0002/visual_04_realistic_cue.png",
+        "reels/Reel_0002/visual_05_notice_opportunity.png",
+        "reels/Reel_0002/visual_06_takeaway.png"
+      ],
+      "drive_folder_id": "1Pw5Zzd8byrjwFHg72NS4xp51WrL4kg8N",
+      "drive_file_id": "11g76U-1VOxI3KgWxHCNSlwvywbOZB6AE",
+      "drive_metadata_file_id": "1m2TJUobkfN5E3msL_OAii6jzQ1Jah7Bi",
+      "drive_supporting_file_ids": {
+        "sources": "1GnTB6O9Y5W9WaSR14E60-V9sTgOHY1QO",
+        "qc_report": "1ucJLZvjer7cRcibhtX2L_j5t_4nA8oLi",
+        "captions": "1cw3vbQfvFRh24w_VOzUVR779po3DcY9V",
+        "script": "1N0NNf4hkLzEKsoPfxGKMs4bRNSOtA_lf",
+        "delivery_receipt": "1E8K9rW9gqmxMXuPN6sV40HTqiqkAqJ_A"
+      },
+      "qc": {
+        "claim_to_source_match": "passed",
+        "content_production": "passed",
+        "drive_upload": "passed"
+      },
+      "qc_evidence": {
+        "content_production": "720x1280 H.264/AAC, 63.08 seconds, captions burned in",
+        "drive_upload": "video and six supporting artifacts verified by returned Drive ID"
+      },
+      "attempts": [
+        {
+          "timestamp_utc": "2026-08-25T00:00:00Z",
+          "step": "research_and_script",
+          "outcome": "passed",
+          "detail": "If-then planning angle verified with source classification and non-guarantee framing."
+        },
+        {
+          "timestamp_utc": "2026-08-25T00:00:00Z",
+          "step": "final_render_and_drive_delivery",
+          "outcome": "passed",
+          "detail": "Final render measured at 63.08 seconds and all Drive bundle files were verified non-trashed in Reel_0002 folder."
+        }
+      ]
     }
   },
   "last_checkpoint": {
-    "timestamp_utc": "2026-08-23T10:00:00Z",
-    "completed_reels": 1,
-    "current_reel": "0001",
-    "next_action": "Reconcile the catalog registry so Reel 0001 is represented once as a verified completed record, then research and stage Reel 0002 without regenerating Reel 0001."
+    "timestamp_utc": "2026-08-25T00:00:00Z",
+    "completed_reels": 2,
+    "current_reel": "0002",
+    "next_action": "Research and stage Reel 0003 without regenerating Reels 0001 or 0002.",
+    "repository_publish_status": "pending: GitHub connector is disabled in this scheduled run; local commit will preserve the checkpoint, while Drive delivery is independently verified."
   }
 }

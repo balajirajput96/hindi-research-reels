@@ -1,0 +1,79 @@
+{
+  "project": "3000_HINDI_RESEARCH_REELS",
+  "reel_id": "0002",
+  "batch": "Batch_001",
+  "language": "hi-IN",
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 60,
+    "actual_duration_seconds": 63.08,
+    "caption_format": "SRT",
+    "audio_requirement": "Hindi voice narration"
+  },
+  "topic": "नई आदत शुरू करने में अगर-तब योजना कैसे मदद कर सकती है?",
+  "working_title_hi": "नई आदत शुरू नहीं हो रही? लक्ष्य नहीं, अगर-तब योजना बनाइए",
+  "status": "qc_passed_drive_verified",
+  "claim_classification": {
+    "scientific_evidence": [
+      "A goal intention alone does not guarantee action.",
+      "Implementation intentions specify a cue and response in an if-then format.",
+      "Such plans can support noticing a selected cue and initiating a planned action."
+    ],
+    "practical_behavioral_strategy": [
+      "Choose one realistic recurring cue and a small feasible response."
+    ],
+    "not_claimed": [
+      "An if-then plan does not guarantee goal attainment or automatic habit formation.",
+      "The content is not medical or mental-health treatment advice."
+    ]
+  },
+  "source_files": {
+    "research_notes": "research/reel_0002_if_then_planning_sources.md",
+    "script": "reels/Reel_0002/script.md",
+    "captions": "reels/Reel_0002/captions.srt",
+    "video": "reels/Reel_0002/reel.mp4",
+    "voice": "reels/Reel_0002/narration_v2.wav"
+  },
+  "visual_production_route": "AI-generated editorial visuals assembled as deterministic 9:16 motion graphics with externally rendered Hindi captions; not represented as full generative-video animation.",
+  "sources": [
+    {
+      "id": "Wieber_2015",
+      "citation": "Wieber, Thürmer & Gollwitzer (2015), Promoting the translation of intentions into action by implementation intentions",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2015.00395/full",
+      "use": "Peer-reviewed review of if-then planning, cue accessibility and action initiation"
+    },
+    {
+      "id": "Gollwitzer_Sheeran_2006",
+      "citation": "Gollwitzer & Sheeran (2006), Implementation intentions and goal achievement: A meta-analysis of effects and processes",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0065260106380021",
+      "use": "Original meta-analysis of 94 independent tests"
+    },
+    {
+      "id": "NCI_Implementation_Intentions",
+      "citation": "National Cancer Institute, Implementation Intentions reference overview",
+      "url": "https://cancercontrol.cancer.gov/brp/research/constructs/implementation-intentions",
+      "use": "Concordant explanatory overview; webpage states that it is no longer maintained"
+    }
+  ],
+  "required_qc": {
+    "research_claim_match": "passed",
+    "voice_duration_seconds": 63.08,
+    "video_properties": "passed: 720x1280 H.264/AAC, 63.08 seconds",
+    "caption_readability": "passed: Noto Sans Devanagari, bottom-safe placement, last cue ends at 63.0 seconds",
+    "visual_policy": "passed: no guarantee or instant-rewiring claim; motion-graphics route disclosed",
+    "drive_upload": "passed: final MP4 and all supporting artifacts ID-verified as non-trashed in the Reel_0002 Drive folder"
+  },
+  "drive": {
+    "root_folder_id": "1Fi466y5laOcSOof7nUta6i9u5Ft3Zwlt",
+    "batch_folder_id": "1VdMz2fPf0oucSgFLph8e7s9MkN1HdtGY",
+    "reel_folder_id": "1Pw5Zzd8byrjwFHg72NS4xp51WrL4kg8N",
+    "video_file_id": "11g76U-1VOxI3KgWxHCNSlwvywbOZB6AE",
+    "metadata_file_id": "1m2TJUobkfN5E3msL_OAii6jzQ1Jah7Bi",
+    "source_metadata_file_id": "1GnTB6O9Y5W9WaSR14E60-V9sTgOHY1QO",
+    "qc_report_file_id": "1ucJLZvjer7cRcibhtX2L_j5t_4nA8oLi",
+    "captions_file_id": "1cw3vbQfvFRh24w_VOzUVR779po3DcY9V",
+    "script_file_id": "1N0NNf4hkLzEKsoPfxGKMs4bRNSOtA_lf",
+    "delivery_receipt_file_id": "1E8K9rW9gqmxMXuPN6sV40HTqiqkAqJ_A",
+    "upload_verified": true
+  }
+}

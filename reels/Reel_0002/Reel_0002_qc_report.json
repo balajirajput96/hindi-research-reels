@@ -1,0 +1,50 @@
+{
+  "reel_id": "0002",
+  "topic": "नई आदत शुरू करने में अगर-तब योजना कैसे मदद कर सकती है?",
+  "qc_timestamp_utc": "2026-08-25T00:00:00Z",
+  "technical_qc": {
+    "status": "passed",
+    "video_file": "reel.mp4",
+    "duration_seconds": 63.08,
+    "duration_gate_seconds": {
+      "minimum": 55,
+      "maximum": 65,
+      "result": "passed"
+    },
+    "resolution": {
+      "width": 720,
+      "height": 1280,
+      "aspect_ratio": "9:16",
+      "result": "passed"
+    },
+    "codecs": {
+      "video": "h264",
+      "audio": "aac"
+    },
+    "caption_track": {
+      "file": "captions.srt",
+      "font": "Noto Sans Devanagari",
+      "bottom_margin_pixels": 150,
+      "last_caption_end_seconds": 63.0,
+      "result": "passed"
+    },
+    "narration": {
+      "file": "narration_v2.wav",
+      "duration_seconds": 63.08,
+      "language": "hi-IN",
+      "result": "passed"
+    }
+  },
+  "editorial_qc": {
+    "status": "passed",
+    "claim_source_match": "passed",
+    "evidence_boundary": "The reel presents if-then planning as a possible action-initiation support and explicitly avoids a personal guarantee of action, automatic habit formation, or treatment.",
+    "medical_or_mental_health_diagnosis": false,
+    "spiritual_or_philosophical_claim": false,
+    "visual_route_disclosure": "AI-generated editorial visuals assembled as deterministic motion graphics; not represented as full generative-video animation."
+  },
+  "drive_delivery": {
+    "status": "pending_upload_and_id_verification",
+    "completion_rule": "Do not mark the reel complete until the non-trashed Drive video and metadata records are queried successfully by returned file ID."
+  }
+}
