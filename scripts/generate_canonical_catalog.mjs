@@ -63,14 +63,23 @@ const reels = [
     visual_asset_policy: 'Reel_0004_topic_specific_scene_request_plus_verified_local_scientific_fallback'
   },
   {
-    reel_id: '0005', batch: 'Batch_001', track: 'memory_learning', working_title_hi: 'सिर्फ दोबारा पढ़ना नहीं: याद करके निकालने का अभ्यास',
-    status: 'planned_research_pending', evidence_status: 'learning_science_pending_research',
+    reel_id: '0005', batch: 'Batch_001', track: 'memory_learning', working_title_hi: 'सिर्फ़ दोबारा पढ़ना नहीं: याद करके निकालने का अभ्यास',
+    status: 'qc_passed_drive_verified', evidence_status: 'verified',
     concept_key: 'retrieval_practice_active_recall',
+    drive_file_id: '1fYHHIMQzmGvOyrce-cMqKodTcgvhzp7N',
+    source_metadata_file_id: '1L829crKT1YaZCIg6BjE242CzsHA25T6p', qc_file_id: '1d67vAQeqz70sVcirgOTba6aLtDSv-4Ub',
+    duration_seconds: 61.4,
+    visual_asset_policy: 'Reel_0005_topic_specific_scene_request_plus_verified_local_scientific_fallback'
+  },
+  {
+    reel_id: '0006', batch: 'Batch_001', track: 'memory_learning', working_title_hi: 'भूलने से पहले दोहराना: दूरी वाले अभ्यास की शुरुआत',
+    status: 'planned_research_pending', evidence_status: 'learning_science_pending_research',
+    concept_key: 'spaced_repetition_interval_scheduling',
     required_before_production: ['authoritative_sources_verified', 'claim_classified', 'Hindi_script_fact_checked', 'visual_plan_qc']
   }
 ];
 
-let number = 6;
+let number = 7;
 outer: for (const track of tracks) {
   for (const domain of track.domains) {
     for (const focus of track.focuses) {
@@ -99,13 +108,13 @@ const state = {
   production_contract: { total_reels: 3000, batches: 100, reels_per_batch: 30, aspect_ratio: '9:16', target_duration_seconds: 60, voice_required: true, captions_required: true, evidence_classification_required: true, raw_terminal_history_policy: 'metadata_only_never_content' },
   tracks: tracks.map(({ id, title, evidence }) => ({ id, title_hi: title, evidence_default: evidence })),
   state: {
-    completed_reels: 4,
+    completed_reels: 5,
     active_reel: null,
-    next_reel: '0005',
+    next_reel: '0006',
     retry_queue: [],
     failed_reels: [],
-    last_verified_reel: '0004',
-    completed_concept_keys: ['practice_dependent_neuroplasticity', 'habit_automaticity_cue_repetition', 'implementation_intentions_if_then_plan', 'choice_architecture_option_effort']
+    last_verified_reel: '0005',
+    completed_concept_keys: ['practice_dependent_neuroplasticity', 'habit_automaticity_cue_repetition', 'implementation_intentions_if_then_plan', 'choice_architecture_option_effort', 'retrieval_practice_active_recall']
   },
   reels
 };

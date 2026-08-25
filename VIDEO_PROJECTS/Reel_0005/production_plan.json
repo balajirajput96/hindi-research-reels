@@ -1,0 +1,22 @@
+{
+  "reel_id": "0005",
+  "working_title_hi": "सिर्फ़ पढ़ना नहीं—याद से निकालकर देखिए",
+  "concept_key": "retrieval_practice_active_recall",
+  "target": {
+    "aspect_ratio": "9:16",
+    "resolution": "720x1280",
+    "target_duration_seconds": 60,
+    "language": "hi-IN",
+    "style": "cinematic learning-science motion graphics with warm study-space realism"
+  },
+  "scene_plan": [
+    {"seconds": "0-10", "visual": "student looks at a familiar page, then pauses with closed book", "claim": "familiarity is not the same as being able to retrieve"},
+    {"seconds": "10-20", "visual": "gentle visualization of a memory path from a question card to a recalled idea", "claim": "retrieval practice means attempting recall after initial study"},
+    {"seconds": "20-30", "visual": "balanced comparison of rereading and answering a closed-book question, with no score claims", "claim": "research syntheses support benefits in many studied contexts, with variation"},
+    {"seconds": "30-40", "visual": "a small study interval followed by a closed notebook and two handwritten question cards", "claim": "personal experiment: recall before checking"},
+    {"seconds": "40-50", "visual": "notes reopen and a calm correction mark appears beside a response", "claim": "checking and correcting matters"},
+    {"seconds": "50-60", "visual": "next-day revisit of one concept with a restrained uncertainty and feedback motif", "claim": "no score guarantee; choose, recall, check, learn"}
+  ],
+  "evidence_status": "verified",
+  "quality_gates": ["claim_labels_present", "research_limitations_spoken", "hindi_narration", "burned_in_captions", "technical_qc", "drive_upload_verified"]
+}

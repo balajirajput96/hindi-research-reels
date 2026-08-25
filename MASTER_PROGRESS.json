@@ -84,9 +84,24 @@
         "drive_verified_at": "2026-08-25T05:12:43Z"
       },
       "visual_fallback_policy": "Topic-specific scene requests plus documented verified local scientific fallback scenes; visuals convey no additional factual claim."
+    },
+    "0005": {
+      "topic": "Retrieval practice / active recall",
+      "status": "qc_passed_drive_verified",
+      "replacement_target": {
+        "duration_seconds": 61.4,
+        "format": "mp4_h264_aac_720x1280",
+        "batch": "Batch_001",
+        "drive_file_id": "1fYHHIMQzmGvOyrce-cMqKodTcgvhzp7N",
+        "source_metadata_file_id": "1L829crKT1YaZCIg6BjE242CzsHA25T6p",
+        "qc_file_id": "1d67vAQeqz70sVcirgOTba6aLtDSv-4Ub",
+        "preliminary_qc_file_id": "1ImvaEmOKsDzQxacg35p4297VvWXs12KB",
+        "drive_verified_at": "2026-08-25T05:23:50Z"
+      },
+      "visual_fallback_policy": "Topic-specific scene requests plus documented verified local scientific fallback scenes; visuals convey no additional factual claim."
     }
   },
-  "next_reel_id": "0005",
+  "next_reel_id": "0006",
   "retry_queue": [],
-  "updated_at": "2026-08-25T05:12:43Z"
+  "updated_at": "2026-08-25T05:23:50Z"
 }

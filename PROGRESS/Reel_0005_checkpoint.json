@@ -1,0 +1,28 @@
+{
+  "reel_id": "0005",
+  "status": "completed",
+  "completion_contract": {
+    "evidence_verified": true,
+    "script_fact_checked": true,
+    "voice_and_captions_present": true,
+    "technical_qc_passed": true,
+    "editorial_qc_passed": true,
+    "drive_upload_verified": true,
+    "checkpoint_updated": true
+  },
+  "verified_replacement": {
+    "drive_file_id": "1fYHHIMQzmGvOyrce-cMqKodTcgvhzp7N",
+    "name": "Reel_0005_Retrieval_Practice_60s.mp4",
+    "duration_seconds": 61.4,
+    "dimensions": "720x1280",
+    "batch_parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "non_trashed": true,
+    "source_metadata_file_id": "1L829crKT1YaZCIg6BjE242CzsHA25T6p",
+    "qc_file_id": "1d67vAQeqz70sVcirgOTba6aLtDSv-4Ub",
+    "preliminary_qc_file_id": "1ImvaEmOKsDzQxacg35p4297VvWXs12KB"
+  },
+  "visual_asset_provenance": "Topic-specific scene requests plus verified local scientific fallback scenes; no visual is treated as independent evidence.",
+  "next_reel_id": "0006",
+  "next_reel_concept_key": "spaced_repetition_interval_scheduling",
+  "updated_at": "2026-08-25T05:23:50Z"
+}

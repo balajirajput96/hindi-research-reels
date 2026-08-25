@@ -1,0 +1,19 @@
+{
+  "reel_id": "0005",
+  "batch": "Batch_001",
+  "video": {
+    "file_id": "1fYHHIMQzmGvOyrce-cMqKodTcgvhzp7N",
+    "mime_type": "video/mp4",
+    "name": "Reel_0005_Retrieval_Practice_60s.mp4",
+    "trashed": false,
+    "parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "duration_millis": 61399,
+    "width": 720,
+    "height": 1280
+  },
+  "source_metadata_file_id": "1L829crKT1YaZCIg6BjE242CzsHA25T6p",
+  "qc_report_file_id": "1d67vAQeqz70sVcirgOTba6aLtDSv-4Ub",
+  "preliminary_qc_report_file_id": "1ImvaEmOKsDzQxacg35p4297VvWXs12KB",
+  "verified": true,
+  "verified_at": "2026-08-25T05:23:50Z"
+}
