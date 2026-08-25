@@ -29,6 +29,7 @@ const reels = [
   {
     reel_id: '0001', batch: 'Batch_001', track: 'brain_plasticity', working_title_hi: 'अभ्यास-आधारित न्यूरोप्लास्टिसिटी',
     status: 'qc_passed_drive_verified', evidence_status: 'verified',
+    concept_key: 'practice_dependent_neuroplasticity',
     drive_file_id: '1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP',
     source_metadata_file_id: '1OUVJelPAC3kJvMzgjAFmy76HTgALVZ5n', qc_file_id: '1ZgLgjoT-rC-Ha7UIKD7haQ0gzFSFEKBX',
     duration_seconds: 60.499, archived_predecessor: '1vGeCNPZoT7TBkPVR7tc8EtqYm7DsZb_S'
@@ -36,15 +37,25 @@ const reels = [
   {
     reel_id: '0002', batch: 'Batch_001', track: 'habits_behavior', working_title_hi: '21 दिन वाली आदत-धारणा: संकेत और दोहराव',
     status: 'qc_passed_drive_verified', evidence_status: 'verified',
+    concept_key: 'habit_automaticity_cue_repetition',
     drive_file_id: '1-bqXBYj1fKYrTtZfsLBmLfwHKXd253n9',
     source_metadata_file_id: '1QF4MOh78fAP2tNRR-4HV1N57k_6yVOld', qc_file_id: '180Kpgps1x4kSUbMdic4UjMK2ua8KM01H',
     duration_seconds: 57.133,
     preserved_legacy_assets: ['research/reel_0001_habit_formation_sources.md', 'reels/Reel_0001/script.md', 'reels/Reel_0001/captions.srt'],
     visual_asset_policy: 'Reel_0002_opening_scene_plus_verified_local_scientific_fallback'
+  },
+  {
+    reel_id: '0003', batch: 'Batch_001', track: 'habits_behavior', working_title_hi: 'अगर–तब योजना: आदत को शुरू करने का अलग तरीका',
+    status: 'qc_passed_drive_verified', evidence_status: 'verified',
+    concept_key: 'implementation_intentions_if_then_plan',
+    drive_file_id: '18-vITORcmbubrArBZlHFZSJ8l_kzzCN5',
+    source_metadata_file_id: '1S7hpVu6iAt2bT2n7QNCKK3Nm2Rb1jmtW', qc_file_id: '1kZA5W1c84dA1jTHvgs4HjNCsjGycDcRJ',
+    duration_seconds: 59.766667,
+    visual_asset_policy: 'Reel_0003_opening_scene_plus_verified_local_scientific_fallback'
   }
 ];
 
-let number = 3;
+let number = 4;
 outer: for (const track of tracks) {
   for (const domain of track.domains) {
     for (const focus of track.focuses) {
@@ -72,7 +83,15 @@ const state = {
   storage: { primary: 'Google Drive', root_folder_id: '1vYLRarvedtfaYzNcINGKpKAeeFaz0OnD', root_folder_name: '3000_HINDI_RESEARCH_REELS', batch_folder_pattern: 'Batch_001 through Batch_100', verified_upload_required: true },
   production_contract: { total_reels: 3000, batches: 100, reels_per_batch: 30, aspect_ratio: '9:16', target_duration_seconds: 60, voice_required: true, captions_required: true, evidence_classification_required: true, raw_terminal_history_policy: 'metadata_only_never_content' },
   tracks: tracks.map(({ id, title, evidence }) => ({ id, title_hi: title, evidence_default: evidence })),
-  state: { completed_reels: 2, active_reel: null, next_reel: '0003', retry_queue: [], failed_reels: [], last_verified_reel: '0002' },
+  state: {
+    completed_reels: 3,
+    active_reel: null,
+    next_reel: '0004',
+    retry_queue: [],
+    failed_reels: [],
+    last_verified_reel: '0003',
+    completed_concept_keys: ['practice_dependent_neuroplasticity', 'habit_automaticity_cue_repetition', 'implementation_intentions_if_then_plan']
+  },
   reels
 };
 

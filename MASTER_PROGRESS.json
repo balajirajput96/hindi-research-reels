@@ -55,9 +55,23 @@
         "drive_verified_at": "2026-08-23T00:00:00+05:30"
       },
       "visual_fallback_policy": "Opening Reel 0002 scene plus verified local scientific fallback scenes; recorded for optional future visual refresh."
+    },
+    "0003": {
+      "topic": "Implementation intentions: if–then planning",
+      "status": "qc_passed_drive_verified",
+      "replacement_target": {
+        "duration_seconds": 59.766667,
+        "format": "mp4_h264_aac_720x1280",
+        "batch": "Batch_001",
+        "drive_file_id": "18-vITORcmbubrArBZlHFZSJ8l_kzzCN5",
+        "source_metadata_file_id": "1S7hpVu6iAt2bT2n7QNCKK3Nm2Rb1jmtW",
+        "qc_file_id": "1kZA5W1c84dA1jTHvgs4HjNCsjGycDcRJ",
+        "drive_verified_at": "2026-08-25T04:58:40Z"
+      },
+      "visual_fallback_policy": "Opening Reel 0003 scene plus verified local scientific fallback scenes; recorded for optional future visual refresh."
     }
   },
-  "next_reel_id": "0003",
+  "next_reel_id": "0004",
   "retry_queue": [],
-  "updated_at": "2026-08-23T00:00:00+05:30"
+  "updated_at": "2026-08-25T04:58:40Z"
 }

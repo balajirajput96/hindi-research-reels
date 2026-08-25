@@ -1,0 +1,18 @@
+{
+  "reel_id": "0003",
+  "batch": "Batch_001",
+  "video": {
+    "file_id": "18-vITORcmbubrArBZlHFZSJ8l_kzzCN5",
+    "mime_type": "video/mp4",
+    "name": "Reel_0003_If_Then_Planning_60s.mp4",
+    "trashed": false,
+    "parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "duration_millis": 59766,
+    "width": 720,
+    "height": 1280
+  },
+  "source_metadata_file_id": "1S7hpVu6iAt2bT2n7QNCKK3Nm2Rb1jmtW",
+  "qc_report_file_id": "1kZA5W1c84dA1jTHvgs4HjNCsjGycDcRJ",
+  "verified": true,
+  "verified_at": "2026-08-25T04:58:40Z"
+}
