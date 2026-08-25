@@ -1,0 +1,28 @@
+{
+  "reel_id": "0002",
+  "title_hi": "21 दिन वाला नियम नहीं, संकेत और दोहराव",
+  "status": "research_verified_assets_pending",
+  "source_evidence": "RESEARCH_DATABASE/reel_0002_habit_formation_evidence.md",
+  "script": "SCRIPT_DATABASE/Reel_0002_habit_formation_60s.md",
+  "visual_asset_policy": "Uses the completed Reel 0002 opening scene plus verified local scientific fallback scenes from Reel 0001 because five requested new scenes were unavailable at render time. Captions and narration remain specific to Reel 0002; fallback visual reuse is recorded for a future optional visual refresh.",
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 60,
+    "voice_language": "hi-IN",
+    "captions": "burned_in_devanagari"
+  },
+  "scene_plan": [
+    {"start": 0, "end": 9, "purpose": "Hook: calendar myth dissolves into a small daily routine", "visual_style": "cinematic motion graphics"},
+    {"start": 9, "end": 18, "purpose": "Cue-to-action loop visualized without deterministic promise", "visual_style": "clean scientific 2D/3D"},
+    {"start": 18, "end": 30, "purpose": "Research variability shown as a range, not a countdown", "visual_style": "data-led editorial animation"},
+    {"start": 30, "end": 42, "purpose": "Stable cue examples: brushing then water, dinner then walk", "visual_style": "warm realistic character animation"},
+    {"start": 42, "end": 53, "purpose": "A missed day becomes a gentle restart", "visual_style": "supportive cinematic illustration"},
+    {"start": 53, "end": 61, "purpose": "Takeaway: small, clear, repeatable", "visual_style": "minimal hopeful end card"}
+  ],
+  "quality_gates": [
+    "source_and_claim_boundary_review",
+    "Hindi_voice_caption_alignment",
+    "duration_between_55_and_65_seconds",
+    "Drive_upload_and_metadata_verification"
+  ]
+}

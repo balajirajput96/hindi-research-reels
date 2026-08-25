@@ -17,11 +17,12 @@
       "reason": "Verified non-trashed 720x1280 MP4 with 60.499-second Drive metadata and saved source/QC metadata."
     },
     {
-      "legacy_repository_record": "catalog/production_state.json reels.0001",
+      "legacy_repository_record": "catalog/production_state.json reels.0001 and its preserved assets",
       "canonical_reel_id": "0002",
       "topic": "21 दिन वाली आदत-धारणा: संकेत और दोहराव",
-      "decision": "preserve_as_recovery_ready_retry",
-      "reason": "Prior Hindi script, sources, measured narration, caption track, and initial visual work are preserved. It was not completed because video-generation quota blocked remaining scenes."
+      "decision": "completed_with_verified_drive_upload",
+      "drive_file_id": "1-bqXBYj1fKYrTtZfsLBmLfwHKXd253n9",
+      "reason": "Prior Hindi sources, script, narration, captions, and initial visual work were preserved. The repaired 57.133-second portrait MP4 was rendered with recorded scientific fallback scenes, passed QC, and has verified Drive video, source, and QC metadata uploads."
     }
   ]
 }

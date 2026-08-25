@@ -41,9 +41,23 @@
         "drive_duration_seconds": 60.499,
         "drive_verified_at": "2026-08-23T00:00:00+05:30"
       }
+    },
+    "0002": {
+      "topic": "Habit formation: cues and repetition, not a universal 21-day rule",
+      "status": "qc_passed_drive_verified",
+      "replacement_target": {
+        "duration_seconds": 57.133,
+        "format": "mp4_h264_aac_720x1280",
+        "batch": "Batch_001",
+        "drive_file_id": "1-bqXBYj1fKYrTtZfsLBmLfwHKXd253n9",
+        "source_metadata_file_id": "1QF4MOh78fAP2tNRR-4HV1N57k_6yVOld",
+        "qc_file_id": "180Kpgps1x4kSUbMdic4UjMK2ua8KM01H",
+        "drive_verified_at": "2026-08-23T00:00:00+05:30"
+      },
+      "visual_fallback_policy": "Opening Reel 0002 scene plus verified local scientific fallback scenes; recorded for optional future visual refresh."
     }
   },
-  "next_reel_id": "0002",
+  "next_reel_id": "0003",
   "retry_queue": [],
   "updated_at": "2026-08-23T00:00:00+05:30"
 }

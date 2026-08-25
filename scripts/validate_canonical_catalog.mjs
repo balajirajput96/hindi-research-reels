@@ -19,6 +19,6 @@ if (batchCounts.size !== 100 || [...batchCounts.values()].some((count) => count 
 const reel1 = reels.find((reel) => reel.reel_id === '0001');
 const reel2 = reels.find((reel) => reel.reel_id === '0002');
 if (reel1.status !== 'qc_passed_drive_verified' || reel1.duration_seconds < 55 || reel1.duration_seconds > 65) fail('Reel 0001 completion contract is invalid.');
-if (reel2.status !== 'planned_research_pending' || state.state.retry_queue.length !== 0) fail('Reel 0002 next-research contract is invalid.');
-if (state.state.completed_reels !== 1 || state.state.next_reel !== '0002') fail('Canonical production checkpoint is invalid.');
-console.log('Canonical catalog validation passed: 3000 unique reels, 100 complete batches, Reel 0001 verified, Reel 0002 staged for research.');
+if (reel2.status !== 'qc_passed_drive_verified' || reel2.duration_seconds < 55 || reel2.duration_seconds > 65 || !reel2.drive_file_id || !reel2.source_metadata_file_id || !reel2.qc_file_id) fail('Reel 0002 completion contract is invalid.');
+if (state.state.completed_reels !== 2 || state.state.next_reel !== '0003' || state.state.retry_queue.length !== 0) fail('Canonical production checkpoint is invalid.');
+console.log('Canonical catalog validation passed: 3000 unique reels, 100 complete batches, Reels 0001–0002 verified, Reel 0003 next.');
