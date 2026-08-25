@@ -19,9 +19,13 @@ if (batchCounts.size !== 100 || [...batchCounts.values()].some((count) => count 
 const reel1 = reels.find((reel) => reel.reel_id === '0001');
 const reel2 = reels.find((reel) => reel.reel_id === '0002');
 const reel3 = reels.find((reel) => reel.reel_id === '0003');
+const reel4 = reels.find((reel) => reel.reel_id === '0004');
+const reel5 = reels.find((reel) => reel.reel_id === '0005');
 if (reel1.status !== 'qc_passed_drive_verified' || reel1.duration_seconds < 55 || reel1.duration_seconds > 65) fail('Reel 0001 completion contract is invalid.');
 if (reel2.status !== 'qc_passed_drive_verified' || reel2.duration_seconds < 55 || reel2.duration_seconds > 65 || !reel2.drive_file_id || !reel2.source_metadata_file_id || !reel2.qc_file_id) fail('Reel 0002 completion contract is invalid.');
 if (reel3.status !== 'qc_passed_drive_verified' || reel3.duration_seconds < 55 || reel3.duration_seconds > 65 || !reel3.drive_file_id || !reel3.source_metadata_file_id || !reel3.qc_file_id) fail('Reel 0003 completion contract is invalid.');
-if (state.state.completed_reels !== 3 || state.state.next_reel !== '0004' || state.state.retry_queue.length !== 0) fail('Canonical production checkpoint is invalid.');
-if (!Array.isArray(state.state.completed_concept_keys) || state.state.completed_concept_keys.length !== 3 || !state.state.completed_concept_keys.includes(reel3.concept_key)) fail('Reel 0003 concept completion contract is invalid.');
-console.log('Canonical catalog validation passed: 3000 unique reels, 100 complete batches, Reels 0001–0003 verified, Reel 0004 next.');
+if (reel4.status !== 'qc_passed_drive_verified' || reel4.duration_seconds < 55 || reel4.duration_seconds > 65 || !reel4.drive_file_id || !reel4.source_metadata_file_id || reel4.qc_file_id === 'PENDING_FINAL_DRIVE_QC_UPLOAD') fail('Reel 0004 completion contract is invalid.');
+if (reel5.status !== 'planned_research_pending' || reel5.concept_key === reel4.concept_key) fail('Reel 0005 must be a concept-distinct research-pending slot.');
+if (state.state.completed_reels !== 4 || state.state.next_reel !== '0005' || state.state.last_verified_reel !== '0004' || state.state.retry_queue.length !== 0) fail('Canonical production checkpoint is invalid.');
+if (!Array.isArray(state.state.completed_concept_keys) || state.state.completed_concept_keys.length !== 4 || !state.state.completed_concept_keys.includes(reel4.concept_key) || new Set(state.state.completed_concept_keys).size !== 4) fail('Reel 0004 concept completion contract is invalid.');
+console.log('Canonical catalog validation passed: 3000 unique reels, 100 complete batches, Reels 0001–0004 verified, concept-distinct Reel 0005 next.');

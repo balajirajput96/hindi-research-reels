@@ -69,9 +69,24 @@
         "drive_verified_at": "2026-08-25T04:58:40Z"
       },
       "visual_fallback_policy": "Opening Reel 0003 scene plus verified local scientific fallback scenes; recorded for optional future visual refresh."
+    },
+    "0004": {
+      "topic": "Choice architecture: option-related effort and environmental friction",
+      "status": "qc_passed_drive_verified",
+      "replacement_target": {
+        "duration_seconds": 59.92,
+        "format": "mp4_h264_aac_720x1280",
+        "batch": "Batch_001",
+        "drive_file_id": "1y2lnCeTXcQhURIr5Tj1O4FjK7c9r_6M9",
+        "source_metadata_file_id": "1RazdYgHTOK48Gn2wbj3LTkUTToOzkgQX",
+        "qc_file_id": "1azEgh1psLrSScap0hKwRrWCdvmRk9KIO",
+        "preliminary_qc_file_id": "1iOk-nSLjym4pOsXmcRm_i6GJeVLENWOo",
+        "drive_verified_at": "2026-08-25T05:12:43Z"
+      },
+      "visual_fallback_policy": "Topic-specific scene requests plus documented verified local scientific fallback scenes; visuals convey no additional factual claim."
     }
   },
-  "next_reel_id": "0004",
+  "next_reel_id": "0005",
   "retry_queue": [],
-  "updated_at": "2026-08-25T04:58:40Z"
+  "updated_at": "2026-08-25T05:12:43Z"
 }

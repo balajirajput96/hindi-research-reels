@@ -1,0 +1,37 @@
+{
+  "reel_id": "0004",
+  "title_hi": "काम को आसान, रुकावट को थोड़ा कठिन बनाइए",
+  "status": "qc_passed_drive_verified",
+  "technical_qc": {
+    "file": "VIDEO_PROJECTS/Reel_0004/render/Reel_0004_Environmental_Friction_60s.mp4",
+    "duration_seconds": 59.92,
+    "resolution": "720x1280",
+    "aspect_ratio": "9:16",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "frame_rate": 25,
+    "file_size_bytes": 2003299,
+    "decode_probe_passed": true,
+    "status": "pass"
+  },
+  "editorial_qc": {
+    "hindi_narration": "pass",
+    "captions": "burned_in_mobile_safe",
+    "hook_present": true,
+    "evidence_boundary_spoken": true,
+    "limitations_spoken": true,
+    "claim_classification": "research-backed choice architecture plus optional self-experiment",
+    "visual_asset_policy": "Reel_0004 topic-specific scene requests with verified local scientific fallback if queued scenes are not locally ready",
+    "status": "pass"
+  },
+  "drive_qc": {
+    "video_file_id": "1y2lnCeTXcQhURIr5Tj1O4FjK7c9r_6M9",
+    "source_metadata_file_id": "1RazdYgHTOK48Gn2wbj3LTkUTToOzkgQX",
+    "pending_qc_upload_file_id": "1iOk-nSLjym4pOsXmcRm_i6GJeVLENWOo",
+    "batch_parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "verified_non_trashed": true,
+    "verified_video_duration_seconds": 59.92,
+    "verified_at": "2026-08-25T05:12:43Z"
+  },
+  "next_gate": "Upload the final Drive-verified QC report, completion checkpoint, Drive verification artifact, and canonical state; verify their Drive placement before beginning Reel 0005."
+}

@@ -1,0 +1,19 @@
+{
+  "reel_id": "0004",
+  "batch": "Batch_001",
+  "video": {
+    "file_id": "1y2lnCeTXcQhURIr5Tj1O4FjK7c9r_6M9",
+    "mime_type": "video/mp4",
+    "name": "Reel_0004_Choice_Architecture_Friction_60s.mp4",
+    "trashed": false,
+    "parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "duration_millis": 59920,
+    "width": 720,
+    "height": 1280
+  },
+  "source_metadata_file_id": "1RazdYgHTOK48Gn2wbj3LTkUTToOzkgQX",
+  "qc_report_file_id": "1azEgh1psLrSScap0hKwRrWCdvmRk9KIO",
+  "preliminary_qc_report_file_id": "1iOk-nSLjym4pOsXmcRm_i6GJeVLENWOo",
+  "verified": true,
+  "verified_at": "2026-08-25T05:12:43Z"
+}

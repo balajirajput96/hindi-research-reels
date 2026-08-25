@@ -52,10 +52,25 @@ const reels = [
     source_metadata_file_id: '1S7hpVu6iAt2bT2n7QNCKK3Nm2Rb1jmtW', qc_file_id: '1kZA5W1c84dA1jTHvgs4HjNCsjGycDcRJ',
     duration_seconds: 59.766667,
     visual_asset_policy: 'Reel_0003_opening_scene_plus_verified_local_scientific_fallback'
+  },
+  {
+    reel_id: '0004', batch: 'Batch_001', track: 'habits_behavior', working_title_hi: 'काम को आसान, रुकावट को थोड़ा कठिन बनाइए',
+    status: 'qc_passed_drive_verified', evidence_status: 'verified',
+    concept_key: 'choice_architecture_option_effort',
+    drive_file_id: '1y2lnCeTXcQhURIr5Tj1O4FjK7c9r_6M9',
+    source_metadata_file_id: '1RazdYgHTOK48Gn2wbj3LTkUTToOzkgQX', qc_file_id: '1azEgh1psLrSScap0hKwRrWCdvmRk9KIO',
+    duration_seconds: 59.92,
+    visual_asset_policy: 'Reel_0004_topic_specific_scene_request_plus_verified_local_scientific_fallback'
+  },
+  {
+    reel_id: '0005', batch: 'Batch_001', track: 'memory_learning', working_title_hi: 'सिर्फ दोबारा पढ़ना नहीं: याद करके निकालने का अभ्यास',
+    status: 'planned_research_pending', evidence_status: 'learning_science_pending_research',
+    concept_key: 'retrieval_practice_active_recall',
+    required_before_production: ['authoritative_sources_verified', 'claim_classified', 'Hindi_script_fact_checked', 'visual_plan_qc']
   }
 ];
 
-let number = 4;
+let number = 6;
 outer: for (const track of tracks) {
   for (const domain of track.domains) {
     for (const focus of track.focuses) {
@@ -84,13 +99,13 @@ const state = {
   production_contract: { total_reels: 3000, batches: 100, reels_per_batch: 30, aspect_ratio: '9:16', target_duration_seconds: 60, voice_required: true, captions_required: true, evidence_classification_required: true, raw_terminal_history_policy: 'metadata_only_never_content' },
   tracks: tracks.map(({ id, title, evidence }) => ({ id, title_hi: title, evidence_default: evidence })),
   state: {
-    completed_reels: 3,
+    completed_reels: 4,
     active_reel: null,
-    next_reel: '0004',
+    next_reel: '0005',
     retry_queue: [],
     failed_reels: [],
-    last_verified_reel: '0003',
-    completed_concept_keys: ['practice_dependent_neuroplasticity', 'habit_automaticity_cue_repetition', 'implementation_intentions_if_then_plan']
+    last_verified_reel: '0004',
+    completed_concept_keys: ['practice_dependent_neuroplasticity', 'habit_automaticity_cue_repetition', 'implementation_intentions_if_then_plan', 'choice_architecture_option_effort']
   },
   reels
 };

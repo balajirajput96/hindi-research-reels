@@ -1,0 +1,22 @@
+{
+  "reel_id": "0004",
+  "working_title_hi": "काम को आसान, रुकावट को थोड़ा कठिन बनाइए",
+  "concept_key": "choice_architecture_option_effort",
+  "target": {
+    "aspect_ratio": "9:16",
+    "resolution": "720x1280",
+    "target_duration_seconds": 60,
+    "language": "hi-IN",
+    "style": "cinematic behavioral-science motion graphics with warm realistic household details"
+  },
+  "scene_plan": [
+    {"seconds": "0-10", "visual": "person sees a clear desk and begins a task; subtle decision-path overlay", "claim": "environment can affect how easy the next step feels"},
+    {"seconds": "10-20", "visual": "minimal choice-path diagram with a bright easy route and a dim effortful route", "claim": "choice architecture changes option arrangement, not freedom of choice"},
+    {"seconds": "20-30", "visual": "water bottle and open book placed visibly on a desk", "claim": "practical experiment: remove one small barrier"},
+    {"seconds": "30-40", "visual": "phone charging in another room; calm evening space", "claim": "practical experiment: add one small barrier"},
+    {"seconds": "40-50", "visual": "scientific uncertainty graphic with variable arrows and diverse people", "claim": "effects vary; no magic promise"},
+    {"seconds": "50-60", "visual": "seven-day simple check-in calendar with a single highlighted experiment", "claim": "observe your own result"}
+  ],
+  "evidence_status": "verified",
+  "quality_gates": ["claim_labels_present", "research_limitations_spoken", "hindi_narration", "burned_in_captions", "technical_qc", "drive_upload_verified"]
+}

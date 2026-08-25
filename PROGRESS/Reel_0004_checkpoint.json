@@ -1,0 +1,28 @@
+{
+  "reel_id": "0004",
+  "status": "completed",
+  "completion_contract": {
+    "evidence_verified": true,
+    "script_fact_checked": true,
+    "voice_and_captions_present": true,
+    "technical_qc_passed": true,
+    "editorial_qc_passed": true,
+    "drive_upload_verified": true,
+    "checkpoint_updated": true
+  },
+  "verified_replacement": {
+    "drive_file_id": "1y2lnCeTXcQhURIr5Tj1O4FjK7c9r_6M9",
+    "name": "Reel_0004_Choice_Architecture_Friction_60s.mp4",
+    "duration_seconds": 59.92,
+    "dimensions": "720x1280",
+    "batch_parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "non_trashed": true,
+    "source_metadata_file_id": "1RazdYgHTOK48Gn2wbj3LTkUTToOzkgQX",
+    "qc_file_id": "1azEgh1psLrSScap0hKwRrWCdvmRk9KIO",
+    "preliminary_qc_file_id": "1iOk-nSLjym4pOsXmcRm_i6GJeVLENWOo"
+  },
+  "visual_asset_provenance": "Topic-specific scene requests plus verified local scientific fallback scenes; no visual is treated as independent evidence.",
+  "next_reel_id": "0005",
+  "next_reel_concept_key": "retrieval_practice_active_recall",
+  "updated_at": "2026-08-25T05:12:43Z"
+}
