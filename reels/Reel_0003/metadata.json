@@ -1,0 +1,71 @@
+{
+  "project": "3000_HINDI_RESEARCH_REELS",
+  "reel_id": "0003",
+  "batch": "Batch_001",
+  "language": "hi-IN",
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 60,
+    "actual_narration_duration_seconds": 59.2,
+    "caption_format": "SRT",
+    "audio_requirement": "Hindi voice narration"
+  },
+  "topic": "एक दिन आदत छूट जाए, तो क्या सारी progress शून्य हो जाती है?",
+  "working_title_hi": "एक दिन आदत छूट जाए, तो क्या सारी progress शून्य हो जाती है?",
+  "status": "visual_generation_blocked_daily_quota",
+  "claim_classification": {
+    "scientific_evidence": [
+      "A real-world habit-formation study reported that missing one opportunity did not materially affect the process.",
+      "Habit automaticity develops through repetition in a stable context and varies across people and behaviours."
+    ],
+    "scientific_limitations": [
+      "The single-missed-opportunity finding does not establish that frequent lapses or long breaks have no effect.",
+      "A 2024 systematic review notes substantial variability and methodological limitations in the underlying evidence."
+    ],
+    "practical_behavioral_strategy": [
+      "Resume at the next feasible cue and adjust the plan to lower friction."
+    ],
+    "not_claimed": [
+      "No promise of automatic habit formation, treatment, or clinical outcome is made."
+    ]
+  },
+  "source_files": {
+    "research_notes": "research/reel_0003_lapse_not_reset_sources.md",
+    "script": "reels/Reel_0003/script.md",
+    "captions": "reels/Reel_0003/captions.srt",
+    "voice": "reels/Reel_0003/narration_v3.wav",
+    "visual_shot_list": "reels/Reel_0003/visual_shot_list.md"
+  },
+  "sources": [
+    {
+      "id": "Lally_2010",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+      "use": "Primary study for the single missed opportunity finding"
+    },
+    {
+      "id": "Singh_2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/",
+      "use": "Systematic review and meta-analysis for variability and evidence limitations"
+    }
+  ],
+  "preflight_qc": {
+    "research_claim_match": "passed",
+    "narration_duration_seconds": 59.2,
+    "caption_end_seconds": 59.1,
+    "visual_plan_qc": "passed",
+    "final_video_qc": "blocked_pending_visual_generation",
+    "drive_upload": "not_started"
+  },
+  "blocker": {
+    "type": "daily_image_generation_quota",
+    "observed": "2026-08-26",
+    "message": "Image generation quota reached (20/20). No final visual assets, MP4, or Drive upload have been created for Reel 0003.",
+    "safe_resume_action": "Generate the seven visual frames from visual_shot_list.md after quota availability, render with narration_v3.wav and captions.srt, run QC, then upload and ID-verify the full bundle."
+  },
+  "drive": {
+    "root_folder_id": "1Fi466y5laOcSOof7nUta6i9u5Ft3Zwlt",
+    "batch_folder_id": "1VdMz2fPf0oucSgFLph8e7s9MkN1HdtGY",
+    "reel_folder_id": null,
+    "upload_verified": false
+  }
+}
