@@ -1,7 +1,7 @@
 # Reel 0002 — Research and Production Metadata
 
-**Hindi title:** 21 दिन वाला नियम नहीं, संकेत और दोहराव  
-**Topic cluster:** Habits, automaticity, context cues, and behavior change  
+**Hindi title:** 21 दिन वाला नियम नहीं, संकेत और दोहराव
+**Topic cluster:** Habits, automaticity, context cues, and behavior change
 **Completion status at export:** QC passed; Drive upload pending
 
 ## Claim summary
@@ -26,4 +26,3 @@ This is general behavior-science education, not treatment advice. The reel avoid
 | Production plan | `VIDEO_PROJECTS/Reel_0002/production_plan.json` |
 | Render | `VIDEO_PROJECTS/Reel_0002/renders/Reel_0002_habit_formation_60s.mp4` |
 | QC report | `QUALITY_CONTROL/Reel_0002_qc_report.json` |
-

@@ -1,6 +1,6 @@
 # Reel 0002 — 21 दिन वाला नियम नहीं, संकेत और दोहराव
 
-**Target format:** Hindi, 9:16 vertical, approximately 60 seconds, calm evidence-led narration, burned-in captions.  
+**Target format:** Hindi, 9:16 vertical, approximately 60 seconds, calm evidence-led narration, burned-in captions.
 **Evidence label in end card:** “Behavior-science research; timing varies by person and behavior.”
 
 ## Hindi narration
