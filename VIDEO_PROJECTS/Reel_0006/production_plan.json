@@ -1,0 +1,22 @@
+{
+  "reel_id": "0006",
+  "working_title_hi": "हर बार एक साथ नहीं—सीखने को थोड़ा gap दीजिए",
+  "concept_key": "spaced_repetition_interval_scheduling",
+  "target": {
+    "aspect_ratio": "9:16",
+    "resolution": "720x1280",
+    "target_duration_seconds": 60,
+    "language": "hi-IN",
+    "style": "cinematic learning-science motion graphics with warm study-space realism"
+  },
+  "scene_plan": [
+    {"seconds": "0-10", "visual": "late-night desk with many notes and a clock, then a calmer split-session setup", "claim": "massed last-minute study is not the only option"},
+    {"seconds": "10-20", "visual": "same small concept appearing on separate study moments across a restrained timeline", "claim": "spacing separates review sessions across time"},
+    {"seconds": "20-30", "visual": "balanced visual comparison of one long block and several separated visits, with no score labels", "claim": "research often finds better later retention with spaced than massed practice"},
+    {"seconds": "30-40", "visual": "a long-term goal line and adjustable interval markers, without exact prescriptions", "claim": "useful gaps depend on the desired retention delay"},
+    {"seconds": "40-50", "visual": "learner revisits a concept after a modest gap, checks recall, and adjusts a blank interval card", "claim": "personal experiment: adjust based on difficulty and feedback"},
+    {"seconds": "50-60", "visual": "calm repeated visits to one notebook across changing daylight, with uncertainty overlay", "claim": "no universal timetable or permanent-memory guarantee"}
+  ],
+  "evidence_status": "verified",
+  "quality_gates": ["claim_labels_present", "research_limitations_spoken", "hindi_narration", "burned_in_captions", "technical_qc", "drive_upload_verified"]
+}

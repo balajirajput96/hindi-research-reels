@@ -1,0 +1,31 @@
+{
+  "reel_id": "0006",
+  "status": "completed",
+  "completion_contract": {
+    "evidence_verified": true,
+    "script_fact_checked": true,
+    "voice_and_captions_present": true,
+    "technical_qc_passed": true,
+    "editorial_qc_passed": true,
+    "drive_upload_verified": true,
+    "checkpoint_updated": true
+  },
+  "verified_replacement": {
+    "drive_file_id": "1s0keP5FS1D9X98ge-IfVANLLsIo3CI7T",
+    "name": "Reel_0006_Spaced_Repetition_60s.mp4",
+    "duration_seconds": 60.32,
+    "duration_millis": 60320,
+    "dimensions": "720x1280",
+    "batch_parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "non_trashed": true,
+    "size_bytes": 2732356,
+    "md5_checksum": "16cbcfc8dde7acb416a10c96761c22e7",
+    "source_metadata_file_id": "1MNBr97TYcVYC0Ua-qRlK15xOUuge5F_I",
+    "qc_file_id": "1cQZmPaHeMDR7jCDseEhCjFo0HEs-oSHh",
+    "preliminary_qc_file_id": "1M6cfvr1gMFB9FmGctBc-Z4U7yPBNr0yO"
+  },
+  "visual_asset_provenance": "Topic-specific scene requests plus verified local scientific fallback scenes; no visual is treated as independent evidence.",
+  "next_reel_id": "0007",
+  "next_reel_concept_key": "interleaving_mixed_problem_practice",
+  "updated_at": "2026-08-26T13:47:27Z"
+}

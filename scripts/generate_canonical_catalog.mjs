@@ -73,13 +73,22 @@ const reels = [
   },
   {
     reel_id: '0006', batch: 'Batch_001', track: 'memory_learning', working_title_hi: 'भूलने से पहले दोहराना: दूरी वाले अभ्यास की शुरुआत',
-    status: 'planned_research_pending', evidence_status: 'learning_science_pending_research',
+    status: 'qc_passed_drive_verified', evidence_status: 'verified',
     concept_key: 'spaced_repetition_interval_scheduling',
+    drive_file_id: '1s0keP5FS1D9X98ge-IfVANLLsIo3CI7T',
+    source_metadata_file_id: '1MNBr97TYcVYC0Ua-qRlK15xOUuge5F_I', qc_file_id: '1cQZmPaHeMDR7jCDseEhCjFo0HEs-oSHh',
+    duration_seconds: 60.32,
+    visual_asset_policy: 'Reel_0006_topic_specific_scene_request_plus_verified_local_scientific_fallback'
+  },
+  {
+    reel_id: '0007', batch: 'Batch_001', track: 'memory_learning', working_title_hi: 'अलग-अलग तरह के सवालों से सीखने की जाँच',
+    status: 'planned_research_pending', evidence_status: 'learning_science_pending_research',
+    concept_key: 'interleaving_mixed_problem_practice',
     required_before_production: ['authoritative_sources_verified', 'claim_classified', 'Hindi_script_fact_checked', 'visual_plan_qc']
   }
 ];
 
-let number = 7;
+let number = 8;
 outer: for (const track of tracks) {
   for (const domain of track.domains) {
     for (const focus of track.focuses) {
@@ -108,13 +117,13 @@ const state = {
   production_contract: { total_reels: 3000, batches: 100, reels_per_batch: 30, aspect_ratio: '9:16', target_duration_seconds: 60, voice_required: true, captions_required: true, evidence_classification_required: true, raw_terminal_history_policy: 'metadata_only_never_content' },
   tracks: tracks.map(({ id, title, evidence }) => ({ id, title_hi: title, evidence_default: evidence })),
   state: {
-    completed_reels: 5,
+    completed_reels: 6,
     active_reel: null,
-    next_reel: '0006',
+    next_reel: '0007',
     retry_queue: [],
     failed_reels: [],
-    last_verified_reel: '0005',
-    completed_concept_keys: ['practice_dependent_neuroplasticity', 'habit_automaticity_cue_repetition', 'implementation_intentions_if_then_plan', 'choice_architecture_option_effort', 'retrieval_practice_active_recall']
+    last_verified_reel: '0006',
+    completed_concept_keys: ['practice_dependent_neuroplasticity', 'habit_automaticity_cue_repetition', 'implementation_intentions_if_then_plan', 'choice_architecture_option_effort', 'retrieval_practice_active_recall', 'spaced_repetition_interval_scheduling']
   },
   reels
 };
