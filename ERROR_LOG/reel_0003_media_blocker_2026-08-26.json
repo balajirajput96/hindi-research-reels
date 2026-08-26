@@ -1,0 +1,41 @@
+{
+  "reel_id": "0003",
+  "timestamp_utc": "2026-08-26T00:00:00Z",
+  "status": "blocked",
+  "primary_blocker": {
+    "type": "daily_image_generation_quota",
+    "message": "Image generation quota reached (20/20).",
+    "impact": "No Reel 0003 visual frames, final MP4, QC pass, or Drive bundle can be created in this run."
+  },
+  "recovery_assessment": [
+    {
+      "route": "Existing visual-generation capability",
+      "result": "quota exhausted (20/20)",
+      "action": "Do not retry repeatedly until a later scheduled run."
+    },
+    {
+      "route": "Authorized Gemini image API: gemini-2.5-flash-image",
+      "result": "HTTP 429 quota response",
+      "action": "No more retries on this model during this run."
+    },
+    {
+      "route": "Authorized Gemini image API: gemini-3.1-flash-lite-image",
+      "result": "HTTP 429 quota response",
+      "action": "No more retries on this model during this run."
+    },
+    {
+      "route": "Previously referenced Gemini and Antigravity CLI executables",
+      "result": "unavailable in the current runtime; neither command nor a matching executable was located in the expected global locations.",
+      "action": "Do not reinstall, reauthenticate, or force-connect merely to bypass a quota. Reassess only if a verified, authorized alternate media route becomes available."
+    }
+  ],
+  "safe_prepared_assets": [
+    "research/reel_0003_lapse_not_reset_sources.md",
+    "reels/Reel_0003/script.md",
+    "reels/Reel_0003/narration_v3.wav",
+    "reels/Reel_0003/captions.srt",
+    "reels/Reel_0003/visual_shot_list.md",
+    "reels/Reel_0003/metadata.json"
+  ],
+  "resume_rule": "Resume only Reel 0003 after quota availability, generate the planned visual frames, render, run all QC gates, upload to Drive, verify returned file IDs as non-trashed, and then update completion state."
+}

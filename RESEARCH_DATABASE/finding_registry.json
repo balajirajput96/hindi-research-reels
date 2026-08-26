@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "project": "3000_HINDI_RESEARCH_REELS",
+  "evidence_taxonomy": [
+    "Established Evidence",
+    "Strong Evidence",
+    "Emerging Evidence",
+    "Mixed Evidence",
+    "Preliminary Finding",
+    "Expert Interpretation",
+    "Philosophical Concept",
+    "Spiritual/Traditional Belief"
+  ],
+  "legacy_conflict_policy": "reel_0001_evidence.json is preserved as a legacy record and is not a source for canonical Reel 0001 claims because its neuroplasticity topic conflicts with the verified Reel 0001 habit record.",
+  "records": [
+    {
+      "record_id": "HABIT-0001",
+      "topic": "Psychology",
+      "subtopic": "Habit formation timelines",
+      "finding": "A fixed universal 21-day timetable is not supported as a personal habit-formation deadline.",
+      "explanation": "Studies and synthesis reports describe substantial variation across people, behaviours and automaticity thresholds; population averages are not individual forecasts.",
+      "claim_classification": "Scientific evidence",
+      "evidence_level": "Strong Evidence",
+      "researcher": "Phillippa Lally and colleagues; Ben Singh and colleagues",
+      "institution": "University College London for the Lally study; institutional affiliations are in the cited articles",
+      "publication_year": [2010, 2024],
+      "paper_title": "How are habits formed: Modelling habit formation in the real world; Time to Form a Habit: A Systematic Review and Meta-Analysis of Health Behaviour Habit Formation and Its Determinants",
+      "journal": "European Journal of Social Psychology; Healthcare",
+      "source_references": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641623/"
+      ],
+      "important_limitation": "The 2024 review reports substantial individual variability and notes that much of the included evidence had high risk of bias; no fixed timeline should be promised.",
+      "reel_potential": "Corrects a common myth while giving a bounded behavioural takeaway.",
+      "used_status": "used",
+      "used_by_reel": "0001"
+    },
+    {
+      "record_id": "HABIT-0002",
+      "topic": "Psychology",
+      "subtopic": "Automaticity and stable context",
+      "finding": "Repeated behaviour in a stable context is associated with increasing automaticity over time.",
+      "explanation": "The finding describes a process and does not guarantee that any particular action becomes automatic for every person.",
+      "claim_classification": "Scientific evidence",
+      "evidence_level": "Strong Evidence",
+      "researcher": "Phillippa Lally and colleagues; Benjamin Gardner, Phillippa Lally and Jane Wardle",
+      "institution": "University College London for the cited habit-formation work",
+      "publication_year": [2010, 2012],
+      "paper_title": "How are habits formed: Modelling habit formation in the real world; Making health habitual: the psychology of ‘habit-formation’ and general practice",
+      "journal": "European Journal of Social Psychology; British Journal of General Practice",
+      "source_references": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/"
+      ],
+      "important_limitation": "Automaticity is commonly measured by self-report and the evidence should not be translated into a guarantee of health or performance outcomes.",
+      "reel_potential": "Supports cue-and-repeat explanations across everyday habit reels.",
+      "used_status": "used",
+      "used_by_reel": "0001"
+    },
+    {
+      "record_id": "PLAN-0001",
+      "topic": "Psychology",
+      "subtopic": "Implementation intentions",
+      "finding": "An implementation intention specifies a planned response to a specified situation in an if–then format.",
+      "explanation": "The reviewed account distinguishes if–then planning from holding a goal intention alone and discusses cue accessibility and cue–response links as proposed processes.",
+      "claim_classification": "Scientific evidence",
+      "evidence_level": "Strong Evidence",
+      "researcher": "Frank Wieber, Janina Thürmer and Peter M. Gollwitzer; Peter M. Gollwitzer and Paschal Sheeran",
+      "institution": "Institutional affiliations are in the cited articles",
+      "publication_year": [2015, 2006],
+      "paper_title": "Promoting the translation of intentions into action by implementation intentions; Implementation intentions and goal achievement: A meta-analysis of effects and processes",
+      "journal": "Frontiers in Human Neuroscience; Advances in Experimental Social Psychology",
+      "source_references": [
+        "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2015.00395/full",
+        "https://www.sciencedirect.com/science/article/pii/S0065260106380021"
+      ],
+      "important_limitation": "Aggregate effects do not guarantee action or habit formation for an individual, a particular context, or a fixed outcome.",
+      "reel_potential": "Explains why a realistic cue-to-action plan can support action initiation.",
+      "used_status": "used",
+      "used_by_reel": "0002"
+    },
+    {
+      "record_id": "HABIT-0003",
+      "topic": "Psychology",
+      "subtopic": "Lapses and habit formation",
+      "finding": "In one real-world habit-formation study, missing one opportunity to perform the behaviour did not materially affect the habit-formation process.",
+      "explanation": "This supports a non-catastrophic response to a single lapse; it does not establish that repeated lapses or long breaks are harmless.",
+      "claim_classification": "Scientific evidence with explicit scope limit",
+      "evidence_level": "Preliminary Finding",
+      "researcher": "Phillippa Lally and colleagues",
+      "institution": "University College London",
+      "publication_year": 2010,
+      "paper_title": "How are habits formed: Modelling habit formation in the real world",
+      "journal": "European Journal of Social Psychology",
+      "source_references": [
+        "https://onlinelibrary.wiley.com/doi/10.1002/ejsp.674",
+        "https://www.bps.org.uk/research-digest/how-form-habit"
+      ],
+      "important_limitation": "The single-lapse finding came from one study and should not be generalized into a claim that consistency never matters.",
+      "reel_potential": "Supports a compassionate restart message without presenting a false ‘streaks never matter’ claim.",
+      "used_status": "reserved_pending_final_video",
+      "used_by_reel": "0003"
+    }
+  ]
+}

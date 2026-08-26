@@ -1,6 +1,17 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "project": "3000_HINDI_RESEARCH_REELS",
+  "authoritative_sources": {
+    "catalog_state": "catalog/production_state.json",
+    "canonical_catalog": "catalog/canonical_production_state.json",
+    "drive_root_id": "1Fi466y5laOcSOof7nUta6i9u5Ft3Zwlt",
+    "state_reconciliation_policy": "Completion is authoritative only when the canonical catalog and ID-verified non-trashed Drive delivery record agree."
+  },
+  "preserved_legacy_record": {
+    "path": "PROGRESS/MASTER_PROGRESS_legacy_conflict_2026-08-26.json",
+    "sha256": "5e9fb8d820889036425242f5aa754846b9676bae2268221736bd48e598fbb1f1",
+    "reason": "The legacy record referenced an older Drive root and conflicting Reel 0001 facts. It is preserved without deletion and is not used for completion decisions."
+  },
   "production_contract": {
     "target_total_reels": 3000,
     "reels_per_batch": 30,
@@ -8,42 +19,68 @@
     "target_duration_seconds": 60,
     "required_completion_gates": [
       "evidence_verified",
+      "claim_classification_recorded",
       "script_fact_checked",
       "voice_and_captions_present",
       "technical_qc_passed",
       "editorial_qc_passed",
-      "drive_upload_verified",
-      "checkpoint_updated"
+      "drive_upload_id_verified_non_trashed",
+      "durable_state_updated"
     ]
   },
   "drive": {
-    "active_root_id": "1vYLRarvedtfaYzNcINGKpKAeeFaz0OnD",
-    "active_root_name": "3000_HINDI_RESEARCH_REELS",
-    "active_batch_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
-    "active_batch_name": "Batch_001",
-    "older_duplicate_root": "1s8HhWxw2k1n57lhMyLmIT30Ln6y8rnc4",
-    "older_duplicate_root_policy": "preserve_without_modification"
+    "root_id": "1Fi466y5laOcSOof7nUta6i9u5Ft3Zwlt",
+    "root_name": "3000_HINDI_RESEARCH_REELS",
+    "batch_001_id": "1VdMz2fPf0oucSgFLph8e7s9MkN1HdtGY",
+    "verified_subfolders": {
+      "RESEARCH_DATABASE": "1HvFkAg7Dyeu-kzJ1GWRC60EU6fbKIjwX",
+      "SCRIPT_DATABASE": "1lkBsG98p27-jR_oh_X3aIYB3x30-heYT",
+      "VIDEO_PROJECTS": "1iY7RgOSmcUplBiXHV5S8wFfAHvxeecvn",
+      "COMPLETED_REELS": "1lhsLMLtXQn8ft3khxIxRD7BsDRwR-HGt",
+      "BATCHES": "1HgI8mVNsAtufDqs0Lm3mjpxvwUPS6Na9",
+      "SOURCE_METADATA": "1Ha0cV_S1_K0g74pKgRPIQci7r4UL0HpC",
+      "QUALITY_CONTROL": "1nTFpYujSOfD8UxpDMic7UmCw14ITTOei",
+      "ERROR_LOG": "1EEOt6gzLOxmxCNbZMhYdzjwd5OSqHBRH",
+      "PROGRESS": "1HrXeZXMTaDlw4DuHnBpv4uUZQE9waZz9",
+      "ASSETS": "1Tb9Dlx5XWFcrV5T5Ij3JqT_WbmPM24pJ"
+    }
+  },
+  "counts": {
+    "complete_verified": 2,
+    "in_progress": 0,
+    "blocked": 1,
+    "planned": 2997,
+    "retry_queue": 0
   },
   "reels": {
     "0001": {
-      "topic": "Practice-dependent neuroplasticity",
       "status": "qc_passed_drive_verified",
-      "original_predecessor": {
-        "drive_file_id": "1vGeCNPZoT7TBkPVR7tc8EtqYm7DsZb_S",
-        "duration_seconds": 3.833,
-        "status": "archived_predecessor_not_completion"
-      },
-      "replacement_target": {
-        "duration_seconds": 60,
-        "format": "mp4_h264_aac_720x1280",
-        "batch": "Batch_001",
-        "drive_file_id": "1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP",
-        "drive_duration_seconds": 60.499,
-        "drive_verified_at": "2026-08-23T00:00:00+05:30"
-      }
+      "topic": "Universal 21-day habit formation claim is unsupported",
+      "drive_folder_id": "1VdOHjx3yba1f6J-x1ZKEJwxLu_nKIFzC",
+      "drive_video_id": "1CTNcuAZgjpBeMiZD33rRsl6_StfzkzqP",
+      "duration_seconds": 56.96
+    },
+    "0002": {
+      "status": "qc_passed_drive_verified",
+      "topic": "If-then planning can support action initiation without guaranteeing outcomes",
+      "drive_folder_id": "1Pw5Zzd8byrjwFHg72NS4xp51WrL4kg8N",
+      "drive_video_id": "11g76U-1VOxI3KgWxHCNSlwvywbOZB6AE",
+      "duration_seconds": 63.08
+    },
+    "0003": {
+      "status": "blocked_visual_generation_quota",
+      "topic": "A single missed habit opportunity does not automatically reset progress",
+      "prepared_assets": [
+        "research/reel_0003_lapse_not_reset_sources.md",
+        "reels/Reel_0003/script.md",
+        "reels/Reel_0003/narration_v3.wav",
+        "reels/Reel_0003/captions.srt",
+        "reels/Reel_0003/visual_shot_list.md"
+      ],
+      "blocker": "Daily image-generation quota exhausted (20/20); no visual assets, final MP4, or Drive upload exists.",
+      "safe_resume_action": "Generate planned editorial visual frames after quota availability, render, QC, upload, verify by Drive ID, and then mark complete."
     }
   },
-  "next_reel_id": "0002",
-  "retry_queue": [],
-  "updated_at": "2026-08-23T00:00:00+05:30"
+  "next_reel_id": "0003",
+  "updated_at": "2026-08-26T00:00:00Z"
 }
