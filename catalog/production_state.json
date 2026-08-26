@@ -196,7 +196,18 @@
         "type": "daily_image_generation_quota",
         "observed": "2026-08-26",
         "message": "Image generation quota reached (20/20). No final visual assets, MP4, or Drive upload have been created for Reel 0003.",
-        "safe_resume_action": "Generate the seven visual frames from visual_shot_list.md after quota availability, render with narration_v3.wav and captions.srt, run QC, then upload and ID-verify the full bundle."
+        "safe_resume_action": "Generate the seven visual frames from visual_shot_list.md after quota availability, render with narration_v3.wav and captions.srt, run QC, then upload and ID-verify the full bundle.",
+        "error_log": "ERROR_LOG/reel_0003_media_blocker_2026-08-26.json",
+        "alternate_model_attempts": [
+          {
+            "model": "gemini-2.5-flash-image",
+            "result": "HTTP 429 quota response"
+          },
+          {
+            "model": "gemini-3.1-flash-lite-image",
+            "result": "HTTP 429 quota response"
+          }
+        ]
       }
     }
   },
@@ -205,6 +216,7 @@
     "completed_reels": 2,
     "current_reel": "0003",
     "next_action": "Resume Reel 0003 visual generation after daily image-generation quota availability; do not regenerate Reels 0001 or 0002.",
-    "blocker": "daily image generation quota reached (20/20); no final Reel 0003 MP4 or Drive upload exists."
+    "blocker": "daily image generation quota reached (20/20); no final Reel 0003 MP4 or Drive upload exists.",
+    "alternate_media_recovery": "Two authorized Gemini image models returned HTTP 429; no further image-generation retries will occur in this run."
   }
 }
