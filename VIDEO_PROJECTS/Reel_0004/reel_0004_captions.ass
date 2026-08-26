@@ -1,0 +1,29 @@
+[Script Info]
+Title: Reel 0004 Hindi Captions
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Hindi,Noto Sans Devanagari,41,&H00FFFFFF,&H000000FF,&H9B101820,&H7A101820,1,0,0,0,100,100,0,0,1,3,1,2,48,48,128,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:07.60,Hindi,,0,0,0,,सही काम पता है,
+फिर भी शुरुआत नहीं होती?
+Dialogue: 0,0:00:07.60,0:00:15.20,Hindi,,0,0,0,,हर बार वजह केवल इच्छाशक्ति नहीं होती।
+माहौल भी अगला कदम आसान या कठिन बनाता है।
+Dialogue: 0,0:00:15.20,0:00:23.20,Hindi,,0,0,0,,choice architecture:
+विकल्पों को ऐसा सजाना कि अच्छी पसंद तक पहुँचना आसान हो।
+Dialogue: 0,0:00:23.20,0:00:31.40,Hindi,,0,0,0,,पानी पीना है? बोतल सामने रखिए।
+पढ़ना है? किताब और नोटबुक खोलकर रखिए।
+Dialogue: 0,0:00:31.40,0:00:39.20,Hindi,,0,0,0,,स्क्रॉल कम करना है?
+फोन को दूसरे कमरे में चार्ज पर रखिए।
+Dialogue: 0,0:00:39.20,0:00:47.60,Hindi,,0,0,0,,चाही हुई क्रिया से एक रुकावट हटाइए,
+अनचाही क्रिया में एक छोटा कदम जोड़िए।
+Dialogue: 0,0:00:47.60,0:00:54.70,Hindi,,0,0,0,,यह जादू नहीं है। असर व्यक्ति और परिस्थिति के अनुसार बदल सकता है।
+Dialogue: 0,0:00:54.70,0:00:59.92,Hindi,,0,0,0,,आज एक बदलाव चुनिए,
+सात दिन देखिए और अपने अनुभव से सीखिए।

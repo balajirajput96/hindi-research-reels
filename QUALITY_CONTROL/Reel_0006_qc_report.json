@@ -1,0 +1,39 @@
+{
+  "reel_id": "0006",
+  "title_hi": "हर बार एक साथ नहीं—सीखने को थोड़ा gap दीजिए",
+  "status": "qc_passed_drive_verified",
+  "technical_qc": {
+    "file": "VIDEO_PROJECTS/Reel_0006/render/Reel_0006_Spaced_Repetition_60s.mp4",
+    "duration_seconds": 60.32,
+    "resolution": "720x1280",
+    "aspect_ratio": "9:16",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "frame_rate": 25,
+    "file_size_bytes": 2732356,
+    "decode_probe_passed": true,
+    "status": "pass"
+  },
+  "editorial_qc": {
+    "hindi_narration": "pass",
+    "captions": "burned_in_mobile_safe",
+    "hook_present": true,
+    "evidence_boundary_spoken": true,
+    "limitations_spoken": true,
+    "claim_classification": "research-backed spaced-practice learning strategy plus optional self-experiment",
+    "visual_asset_policy": "Reel_0006 queued topical scene requests with documented verified local scientific fallback until a deliberate rerender opts into resolved assets",
+    "status": "pass"
+  },
+  "drive_qc": {
+    "video_file_id": "1s0keP5FS1D9X98ge-IfVANLLsIo3CI7T",
+    "source_metadata_file_id": "1MNBr97TYcVYC0Ua-qRlK15xOUuge5F_I",
+    "preliminary_qc_file_id": "1M6cfvr1gMFB9FmGctBc-Z4U7yPBNr0yO",
+    "batch_parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "verified_non_trashed": true,
+    "verified_video_duration_seconds": 60.32,
+    "verified_dimensions": "720x1280",
+    "drive_md5_checksum": "16cbcfc8dde7acb416a10c96761c22e7",
+    "verified_at": "2026-08-26T13:47:27Z"
+  },
+  "next_gate": "Upload the final Drive-verified QC report, completion checkpoint, Drive verification artifact, and canonical state; verify their Drive placement before beginning Reel 0007."
+}

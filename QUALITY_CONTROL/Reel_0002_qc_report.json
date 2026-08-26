@@ -1,0 +1,38 @@
+{
+  "reel_id": "0002",
+  "title_hi": "21 दिन वाला नियम नहीं, संकेत और दोहराव",
+  "status": "qc_passed_drive_verified",
+  "technical_qc": {
+    "checked_at": "2026-08-23T00:00:00+05:30",
+    "file": "VIDEO_PROJECTS/Reel_0002/renders/Reel_0002_habit_formation_60s.mp4",
+    "duration_seconds": 57.16,
+    "duration_gate": "pass: within 55–65 seconds",
+    "resolution": "720x1280",
+    "aspect_ratio": "9:16",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "frame_rate": "30fps",
+    "size_bytes": 8826158,
+    "caption_track": "burned-in Devanagari ASS captions",
+    "narration_input_present": true,
+    "caption_input_present": true
+  },
+  "editorial_qc": {
+    "evidence_record": "RESEARCH_DATABASE/reel_0002_habit_formation_evidence.md",
+    "claim_boundary": "No universal 21-day or 66-day promise; context-stability finding is described as research association, not guarantee.",
+    "visual_policy": "One Reel 0002 opening visual plus verified local scientific fallback scenes; fallback is recorded in the production plan for future optional refresh.",
+    "source_label_required": true,
+    "status": "pass"
+  },
+  "drive_qc": {
+    "video_file_id": "1-bqXBYj1fKYrTtZfsLBmLfwHKXd253n9",
+    "source_metadata_file_id": "1QF4MOh78fAP2tNRR-4HV1N57k_6yVOld",
+    "qc_report_file_id": "180Kpgps1x4kSUbMdic4UjMK2ua8KM01H",
+    "parent_batch_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "non_trashed": true,
+    "video_duration_millis": 57133,
+    "video_dimensions": "720x1280",
+    "status": "pass"
+  },
+  "next_gate": "Mark canonical state complete and begin unique Reel 0003 research."
+}

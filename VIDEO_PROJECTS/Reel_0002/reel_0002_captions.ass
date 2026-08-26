@@ -1,0 +1,25 @@
+[Script Info]
+Title: Reel 0002 Hindi Captions
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Hindi,Noto Sans Devanagari,42,&H00FFFFFF,&H000000FF,&H00131A2D,&H96000000,1,0,0,0,100,100,0,0,1,3,1,2,48,48,190,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:05.80,Hindi,,0,0,0,,क्या कोई आदत सिर्फ 21 दिन में बन जाती है?
+Dialogue: 0,0:00:05.80,0:00:10.00,Hindi,,0,0,0,,जरूरी नहीं। 21 दिन कोई वैज्ञानिक deadline नहीं है।
+Dialogue: 0,0:00:10.00,0:00:16.50,Hindi,,0,0,0,,आदत सिर्फ काम दोहराना नहीं।
+Dialogue: 0,0:00:16.50,0:00:21.80,Hindi,,0,0,0,,पहचाने हुए संकेत के बाद काम कम सोचकर शुरू होना—automaticity।
+Dialogue: 0,0:00:21.80,0:00:29.30,Hindi,,0,0,0,,2024 की review में timelines बहुत अलग थीं।
+Dialogue: 0,0:00:29.30,0:00:34.50,Hindi,,0,0,0,,कुछ medians 59 से 66 दिन; कई लोगों में ज्यादा।
+Dialogue: 0,0:00:34.50,0:00:38.20,Hindi,,0,0,0,,इसलिए 66 दिन भी आपकी guarantee नहीं है।
+Dialogue: 0,0:00:38.20,0:00:45.00,Hindi,,0,0,0,,नया काम किसी stable cue से जोड़िए।
+Dialogue: 0,0:00:45.00,0:00:50.00,Hindi,,0,0,0,,Brush के बाद पानी। Dinner के बाद दो मिनट walk।
+Dialogue: 0,0:00:50.00,0:00:54.00,Hindi,,0,0,0,,एक जैसे समय और जगह मदद कर सकते हैं।
+Dialogue: 0,0:00:54.00,0:00:57.20,Hindi,,0,0,0,,Perfect streak नहीं। छोटा restart कीजिए।

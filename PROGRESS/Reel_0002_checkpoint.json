@@ -1,0 +1,29 @@
+{
+  "reel_id": "0002",
+  "status": "completed",
+  "completion_contract": {
+    "evidence_verified": true,
+    "script_fact_checked": true,
+    "voice_and_captions_present": true,
+    "technical_qc_passed": true,
+    "editorial_qc_passed": true,
+    "drive_upload_verified": true
+  },
+  "verified_replacement": {
+    "drive_file_id": "1-bqXBYj1fKYrTtZfsLBmLfwHKXd253n9",
+    "name": "Reel_0002_21_Din_Myth_Habit_Cues_60s.mp4",
+    "duration_seconds": 57.133,
+    "dimensions": "720x1280",
+    "batch_parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "non_trashed": true,
+    "source_metadata_file_id": "1QF4MOh78fAP2tNRR-4HV1N57k_6yVOld",
+    "qc_file_id": "180Kpgps1x4kSUbMdic4UjMK2ua8KM01H"
+  },
+  "preserved_prior_assets": {
+    "legacy_script": "reels/Reel_0001/script.md",
+    "legacy_sources": "research/reel_0001_habit_formation_sources.md",
+    "policy": "preserved_without_deletion_or_overwrite"
+  },
+  "next_reel_id": "0003",
+  "updated_at": "2026-08-23T00:00:00+05:30"
+}

@@ -1,0 +1,26 @@
+{
+  "reel_id": "0003",
+  "canonical_concept_key": "implementation_intentions_if_then_plan",
+  "working_title_hi": "अगर–तब योजना: आदत को शुरू करने का अलग तरीका",
+  "status": "research_and_script_verified_pending_narration",
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_duration_seconds": 60,
+    "language": "hi-IN",
+    "voice": "warm_evidence_led_hindi",
+    "captions": "burned_in_mobile_safe"
+  },
+  "scene_plan": [
+    {"seconds": "0-8", "visual": "A paused morning routine and a floating unfinished-goal card", "caption_focus": "Goal पता है, शुरुआत कहाँ अटकती है?"},
+    {"seconds": "8-17", "visual": "A clean if–then card connecting a cue node to an action node", "caption_focus": "अगर X, तो Y"},
+    {"seconds": "17-28", "visual": "Phone placed on charge, then water bottle filled in one continuous match cut", "caption_focus": "Concrete cue + छोटा action"},
+    {"seconds": "28-39", "visual": "Scientific motion graphic: cue becomes more visible and routes to an action", "caption_focus": "Intention से action तक support"},
+    {"seconds": "39-49", "visual": "Plan meeting a realistic obstacle; action card gets simplified", "caption_focus": "यह जादू नहीं है"},
+    {"seconds": "49-58", "visual": "Hand writes one simple if–then plan; calm end card", "caption_focus": "Perfect नहीं—शुरू करना आसान"}
+  ],
+  "research_file": "RESEARCH_DATABASE/reel_0003_implementation_intentions_evidence.md",
+  "retry_policy": {
+    "max_retries_per_generation_step": 2,
+    "fallback": "reuse verified non-topic-conflicting scientific motion assets with transparent QC notation"
+  }
+}

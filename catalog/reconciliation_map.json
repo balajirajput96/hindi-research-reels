@@ -1,27 +1,44 @@
 {
-  "schema_version": "1.0",
-  "canonical_state_file": "catalog/canonical_production_state.json",
-  "legacy_state_file": "catalog/production_state.json",
+  "schema_version": "2.0",
+  "authoritative_catalog": "catalog/canonical_production_state.json",
+  "authoritative_runtime_state": "catalog/production_state.json",
+  "authoritative_master_progress": "MASTER_PROGRESS.json",
+  "completion_rule": "A reel is complete only when its final video and required metadata are currently queryable by Drive ID, non-trashed, and represented in durable state.",
+  "preserved_legacy_maps": [
+    {
+      "path": "PROGRESS/MASTER_PROGRESS_legacy_conflict_2026-08-26.json",
+      "reason": "Earlier root and Reel 0001 records conflict with the current verified production state."
+    },
+    {
+      "path": "PROGRESS/recovered_merged_reconciliation_map_unverified_2026-08-26.json",
+      "sha256": "752520a59075efa5b349c6f4b343b971d760360caf8031431f679b18b45389a1",
+      "reason": "Merged historical reconciliation map has conflicting root and Reel identifiers; retained only as a recovery artifact."
+    }
+  ],
   "decisions": [
     {
-      "legacy_record": "Drive Reel_0001_neuroplasticity.mp4",
-      "legacy_drive_file_id": "1vGeCNPZoT7TBkPVR7tc8EtqYm7DsZb_S",
-      "decision": "preserve_as_archived_predecessor",
-      "reason": "Verified duration is 3.833 seconds, which does not meet the approximately 60-second contract."
+      "reel_id": "0001",
+      "decision": "complete_verified",
+      "drive_video_id": "1CTNcuAZgjpBeMiZD33rRsl6_StfzkzqP",
+      "evidence": "Current Drive query and local delivery receipt support completion."
     },
     {
-      "canonical_reel_id": "0001",
-      "topic": "अभ्यास-आधारित न्यूरोप्लास्टिसिटी",
-      "decision": "completed_with_verified_replacement",
-      "drive_file_id": "1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP",
-      "reason": "Verified non-trashed 720x1280 MP4 with 60.499-second Drive metadata and saved source/QC metadata."
+      "reel_id": "0002",
+      "decision": "complete_verified",
+      "drive_video_id": "11g76U-1VOxI3KgWxHCNSlwvywbOZB6AE",
+      "evidence": "Current Drive query and local delivery receipt support completion."
     },
     {
-      "legacy_repository_record": "catalog/production_state.json reels.0001",
-      "canonical_reel_id": "0002",
-      "topic": "21 दिन वाली आदत-धारणा: संकेत और दोहराव",
-      "decision": "preserve_as_recovery_ready_retry",
-      "reason": "Prior Hindi script, sources, measured narration, caption track, and initial visual work are preserved. It was not completed because video-generation quota blocked remaining scenes."
+      "reel_id": "0003",
+      "decision": "incomplete_blocked",
+      "topic": "A single missed habit opportunity does not automatically reset progress",
+      "reason": "Research, narration, captions and visual plan are prepared; final visual generation returned quota errors and no final MP4 or Drive upload exists."
+    },
+    {
+      "reel_ids": ["0003", "0004", "0005", "0006"],
+      "decision": "remote_completion_claims_preserved_unverified",
+      "remote_commit": "f9241a3",
+      "reason": "All claimed video IDs returned 404 Not Found through the connected Drive account on 2026-08-26. See PROGRESS/remote_checkpoint_reconciliation_2026-08-26.md."
     }
   ]
 }

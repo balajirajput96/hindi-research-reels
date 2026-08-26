@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "canonical_state_file": "catalog/canonical_production_state.json",
+  "legacy_state_file": "catalog/production_state.json",
+  "decisions": [
+    {
+      "legacy_record": "Drive Reel_0001_neuroplasticity.mp4",
+      "legacy_drive_file_id": "1vGeCNPZoT7TBkPVR7tc8EtqYm7DsZb_S",
+      "decision": "preserve_as_archived_predecessor",
+      "reason": "Verified duration is 3.833 seconds, which does not meet the approximately 60-second contract."
+    },
+    {
+      "canonical_reel_id": "0001",
+      "topic": "अभ्यास-आधारित न्यूरोप्लास्टिसिटी",
+      "decision": "completed_with_verified_replacement",
+      "drive_file_id": "1HP0kt92DcIWRTc8M19ViSHBQH9vNEKdP",
+      "reason": "Verified non-trashed 720x1280 MP4 with 60.499-second Drive metadata and saved source/QC metadata."
+    },
+    {
+      "legacy_repository_record": "catalog/production_state.json reels.0001 and its preserved assets",
+      "canonical_reel_id": "0002",
+      "topic": "21 दिन वाली आदत-धारणा: संकेत और दोहराव",
+      "decision": "completed_with_verified_drive_upload",
+      "drive_file_id": "1-bqXBYj1fKYrTtZfsLBmLfwHKXd253n9",
+      "reason": "Prior Hindi sources, script, narration, captions, and initial visual work were preserved. The repaired 57.133-second portrait MP4 was rendered with recorded scientific fallback scenes, passed QC, and has verified Drive video, source, and QC metadata uploads."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "reel_id": "0005",
+  "title_hi": "सिर्फ़ पढ़ना नहीं—याद से निकालकर देखिए",
+  "status": "qc_passed_drive_verified",
+  "technical_qc": {
+    "file": "VIDEO_PROJECTS/Reel_0005/render/Reel_0005_Retrieval_Practice_60s.mp4",
+    "duration_seconds": 61.4,
+    "resolution": "720x1280",
+    "aspect_ratio": "9:16",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "frame_rate": 25,
+    "file_size_bytes": 2693951,
+    "decode_probe_passed": true,
+    "status": "pass"
+  },
+  "editorial_qc": {
+    "hindi_narration": "pass",
+    "captions": "burned_in_mobile_safe",
+    "hook_present": true,
+    "evidence_boundary_spoken": true,
+    "limitations_spoken": true,
+    "claim_classification": "research-backed retrieval-practice learning strategy plus optional self-experiment",
+    "visual_asset_policy": "Reel_0005 queued topical scene requests with documented verified local scientific fallback until a deliberate rerender opts into resolved assets",
+    "status": "pass"
+  },
+  "drive_qc": {
+    "video_file_id": "1fYHHIMQzmGvOyrce-cMqKodTcgvhzp7N",
+    "source_metadata_file_id": "1L829crKT1YaZCIg6BjE242CzsHA25T6p",
+    "pending_qc_upload_file_id": "1ImvaEmOKsDzQxacg35p4297VvWXs12KB",
+    "batch_parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "verified_non_trashed": true,
+    "verified_video_duration_seconds": 61.399,
+    "verified_at": "2026-08-25T05:23:50Z"
+  },
+  "next_gate": "Upload the final Drive-verified QC report, completion checkpoint, Drive verification artifact, and canonical state; verify their Drive placement before beginning Reel 0006."
+}

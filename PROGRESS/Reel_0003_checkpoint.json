@@ -1,0 +1,25 @@
+{
+  "reel_id": "0003",
+  "status": "completed",
+  "completion_contract": {
+    "evidence_verified": true,
+    "script_fact_checked": true,
+    "voice_and_captions_present": true,
+    "technical_qc_passed": true,
+    "editorial_qc_passed": true,
+    "drive_upload_verified": true
+  },
+  "verified_replacement": {
+    "drive_file_id": "18-vITORcmbubrArBZlHFZSJ8l_kzzCN5",
+    "name": "Reel_0003_If_Then_Planning_60s.mp4",
+    "duration_seconds": 59.766667,
+    "dimensions": "720x1280",
+    "batch_parent_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "non_trashed": true,
+    "source_metadata_file_id": "1S7hpVu6iAt2bT2n7QNCKK3Nm2Rb1jmtW",
+    "qc_file_id": "1kZA5W1c84dA1jTHvgs4HjNCsjGycDcRJ"
+  },
+  "visual_asset_provenance": "One resolved topic-specific opening scene plus verified local scientific fallback scenes; no new claim is conveyed by fallback imagery.",
+  "next_reel_id": "0004",
+  "updated_at": "2026-08-25T04:58:40Z"
+}

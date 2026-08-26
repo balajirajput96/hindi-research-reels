@@ -1,0 +1,39 @@
+{
+  "reel_id": "0003",
+  "status": "qc_passed_drive_verified",
+  "topic": "Implementation intentions: if–then planning",
+  "technical_qc": {
+    "file": "VIDEO_PROJECTS/Reel_0003/renders/Reel_0003_if_then_planning_60s.mp4",
+    "duration_seconds": 59.766667,
+    "format": "mp4_h264_aac",
+    "dimensions": "720x1280",
+    "frame_rate": "30",
+    "audio_present": true,
+    "captions_burned_in": true,
+    "result": "pass"
+  },
+  "editorial_qc": {
+    "hook_present": true,
+    "evidence_classification_present": true,
+    "limitations_present": true,
+    "medical_or_guarantee_claims_absent": true,
+    "mobile_caption_safe_area": "bottom 190px",
+    "visual_asset_note": "Opening Reel 0003 scene resolved. Remaining scene requests were unavailable at render time, so verified local scientific fallback scenes were used and recorded in the render contract.",
+    "result": "pass"
+  },
+  "sources": [
+    "PMCID: PMC4500900",
+    "PMCID: PMC6235272"
+  ],
+  "drive_qc": {
+    "video_file_id": "18-vITORcmbubrArBZlHFZSJ8l_kzzCN5",
+    "source_metadata_file_id": "1S7hpVu6iAt2bT2n7QNCKK3Nm2Rb1jmtW",
+    "qc_report_file_id": "1kZA5W1c84dA1jTHvgs4HjNCsjGycDcRJ",
+    "parent_batch_id": "1EUgS6DJLcu6n1UQJqtXPmphWjZail8oi",
+    "non_trashed": true,
+    "video_duration_millis": 59766,
+    "video_dimensions": "720x1280",
+    "status": "pass"
+  },
+  "next_gate": "Mark canonical state complete and begin unique Reel 0004 research."
+}
